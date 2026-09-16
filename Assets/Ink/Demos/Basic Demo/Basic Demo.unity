@@ -424,35 +424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a30b9937d5f440eb064f8f20195959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  m_RaycastTarget: 1
-  m_RaycastTargetCache: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  <useLegacyMeshGeneration>k__BackingField: 0
-  m_Maskable: 1
-  m_IsMaskingGraphic: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-  m_Texture: {fileID: 0}
-  m_UVRect:
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  target: {fileID: 1908123727}
-  renderTexture: {fileID: 0}
-  outputParams:
-    sizeMode: 0
-    customContainerSize: {x: 0, y: 0}
-    containerScalingMode: 0
-  updateMode: 0
 --- !u!222 &1477839180
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -877,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e957d58a4584a8894329531ec0b096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSONAsset: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
+  inkJSONAsset: {fileID: 4900000, guid: 1ee3489200bb34611a3c98e3415ddd84, type: 3}
   canvas: {fileID: 1908123726}
   textPrefab: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
