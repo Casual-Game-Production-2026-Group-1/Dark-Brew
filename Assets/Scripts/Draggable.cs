@@ -15,7 +15,7 @@ public class Draggable : MonoBehaviour
     public bool anchored = false;
     UnityEngine.Vector3 init_pos;
     bool grabbed = false;
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
