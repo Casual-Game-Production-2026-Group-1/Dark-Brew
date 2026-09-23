@@ -58,6 +58,7 @@ public class BasicInkExample : MonoBehaviour
 			}
 		}
 		// If we've read all the content and there's no choices, the story is finished!
+		/*
 		else
 		{
 			Button choice = CreateChoiceView("End of story.\nRestart?");
@@ -66,6 +67,7 @@ public class BasicInkExample : MonoBehaviour
 				StartStory();
 			});
 		}
+		*/
 	}
 
 	// When we click the choice button, tell the story to choose that choice!

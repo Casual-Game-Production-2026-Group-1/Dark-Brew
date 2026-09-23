@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5932596599250763310}
   - component: {fileID: 5604029235646255543}
   - component: {fileID: 1658998491623857640}
+  - component: {fileID: 3081650294875349638}
   m_Layer: 5
   m_Name: Dialogue Canvas
   m_TagString: Untagged
@@ -62,7 +63,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_TargetDisplay: 0
 --- !u!114 &5604029235646255543
 MonoBehaviour:
@@ -107,6 +108,29 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3081650294875349638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726136971849411981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 825, y: 407}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!1 &1692183937992947399
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +193,7 @@ GameObject:
   - component: {fileID: 9100187203416235292}
   - component: {fileID: 7621187774247171187}
   - component: {fileID: 5659835256783303709}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,14 +209,14 @@ RectTransform:
   m_GameObject: {fileID: 7489472216775195124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 7.655104, y: 7.655104, z: 7.655104}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6574577206175493317}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -23, y: -155.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7621187774247171187
@@ -223,9 +247,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 21300000, guid: 1b6b42f3eff926c439d08c62137f0a10, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -281,9 +305,9 @@ Canvas:
   m_GameObject: {fileID: 7855945721619395969}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 104.1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -308,12 +332,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 825, y: 407}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -335,7 +359,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!1001 &4099501450123071204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -344,9 +368,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4217456709272473924}
     m_Modifications:
+    - target: {fileID: 816488980374638551, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2631115211513719654, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
       propertyPath: m_Name
       value: Dialogue Log
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510960710308400848, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510960710308400848, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510960710308400848, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 825
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510960710308400848, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 407
       objectReference: {fileID: 0}
     - target: {fileID: 7771872565851522263, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
       propertyPath: m_Pivot.x
@@ -428,11 +472,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8290662493882516980, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3076968796013738605, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6883920326351685516}
   m_SourcePrefab: {fileID: 100100000, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+--- !u!1 &1321749350616200329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3076968796013738605, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
+  m_PrefabInstance: {fileID: 4099501450123071204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6883920326351685516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321749350616200329}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9047dfb4d6e16d84d8c672bb94c67ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpriteResolutionScalar
+  target_scale: {x: 825, y: 407, z: 1}
 --- !u!224 &5998625596532836915 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7771872565851522263, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
@@ -799,11 +868,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1044.5
+      value: 674
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -477
+      value: -302.274
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
