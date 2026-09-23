@@ -501,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9047dfb4d6e16d84d8c672bb94c67ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteResolutionScalar
-  target_scale: {x: 825, y: 407, z: 1}
+  target_resolution: {x: 827, y: 407, z: 1}
 --- !u!224 &5998625596532836915 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7771872565851522263, guid: daef7fe1297a1ae4a9205ccc78580009, type: 3}
@@ -540,7 +540,15 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11422042, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
+      propertyPath: m_Padding.m_Left
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422042, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
       propertyPath: m_ChildScaleWidth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422042, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
+      propertyPath: m_ChildScaleHeight
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11422042, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
@@ -586,11 +594,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
       propertyPath: m_RaycastPadding.x
-      value: 285.9
+      value: 108.7
       objectReference: {fileID: 0}
     - target: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
       propertyPath: m_RaycastPadding.z
-      value: -10.81
+      value: 81.81
       objectReference: {fileID: 0}
     - target: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
       propertyPath: m_FontData.m_BestFit
@@ -611,6 +619,10 @@ PrefabInstance:
     - target: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
+      propertyPath: m_FontData.m_AlignByGeometry
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11456674, guid: 1aab6ef84d87c416f8f0b3e1ef3d77d2, type: 3}
       propertyPath: m_FontData.m_VerticalOverflow
