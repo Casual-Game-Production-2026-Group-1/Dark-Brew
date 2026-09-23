@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpriteResolutionScalar : MonoBehaviour
 {
     private Vector3 init_scale;
-    public Vector3 target_scale = new Vector3(827, 407, 1);
+    public Vector3 target_resolution = new Vector3(827, 407, 1);
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,6 +15,6 @@ public class SpriteResolutionScalar : MonoBehaviour
     {
         print(Screen.width);
         print(Screen.height);
-        this.transform.localScale = new Vector3((Screen.width / target_scale.x) * init_scale.x, (Screen.height / target_scale.y) * init_scale.y, 1);
+        this.transform.localScale = new Vector3((Screen.width / target_resolution.x) * init_scale.x, (Screen.height / target_resolution.y) * init_scale.y, 1);
     }
 }
