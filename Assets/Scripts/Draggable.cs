@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.Rendering;
 using static Utilities;
 
 public class Draggable : MonoBehaviour
@@ -13,8 +14,10 @@ public class Draggable : MonoBehaviour
     public float zdepth = 1.0f;
     // Should this object return to its start point when you stop holding
     public bool anchored = false;
+    // Should this object do something once it's dropped
+    public bool droppable = false;
     UnityEngine.Vector3 init_pos;
-    bool grabbed = false;
+    protected bool grabbed = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,25 +39,39 @@ public class Draggable : MonoBehaviour
             // Start following when the player holds the object
             if (touch.phase == TouchPhase.Began && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
             {
-                this.transform.position = touch_point;
+                this.transform.position = new UnityEngine.Vector3(touch_point.x, touch_point.y, init_pos.z);
                 grabbed = true;
             }
             // Continue following while the player is holding
             if (touch.phase == TouchPhase.Moved && grabbed)
             {
-                this.transform.position = touch_point;
+                this.transform.position = new UnityEngine.Vector3(touch_point.x, touch_point.y, init_pos.z);
             }
             // Stop following when the player stops holding
             if (touch.phase == TouchPhase.Ended)
             {
-                grabbed = false;
-                // If the object is anchored, return to the initial position
-                if (anchored)
+                if (grabbed)
                 {
-                    this.transform.position = init_pos;
+                    // If the object is droppable, run the dropped func
+                    if (droppable)
+                    {
+                        Dropped();
+                    }
+                    // If the object is anchored, return to the initial position
+                    if (anchored)
+                    {
+                        this.transform.position = init_pos;
+                    }
                 }
+                grabbed = false;
             }
         }
         // TODO: Put mouse controls here
+    }
+
+    protected virtual void Dropped()
+    {
+        // NOTE: Overwrite this in extended scripts with drop logic
+        return;
     }
 }

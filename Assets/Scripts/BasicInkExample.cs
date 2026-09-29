@@ -81,8 +81,8 @@ public class BasicInkExample : MonoBehaviour
 	void CreateContentView(string text)
 	{
 		Text storyText = Instantiate(textPrefab) as Text;
-		savedText.text += text;
-		storyText.text = savedText.text;
+		savedText += text;
+		storyText.text = text;
 		storyText.transform.SetParent(canvas.transform, false);
 	}
 
@@ -128,5 +128,5 @@ public class BasicInkExample : MonoBehaviour
 	private Button buttonPrefab = null;
 
 	// Save text
-	private Text savedText = null;
+	private string savedText = null;
 }

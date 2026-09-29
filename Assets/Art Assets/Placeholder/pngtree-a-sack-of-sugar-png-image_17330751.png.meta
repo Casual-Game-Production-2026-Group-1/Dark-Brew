@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 1604c74eca65de1439d81cb69060e484
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6871154636477658216
+    second: pngtree-a-sack-of-sugar-png-image_17330751_0
+  - first:
+      213: -2139824521350867113
+    second: pngtree-a-sack-of-sugar-png-image_17330751_1
+  - first:
+      213: -2619586910249781814
+    second: pngtree-a-sack-of-sugar-png-image_17330751_2
+  - first:
+      213: -1221846962318596055
+    second: pngtree-a-sack-of-sugar-png-image_17330751_3
+  - first:
+      213: -4727443012807771158
+    second: pngtree-a-sack-of-sugar-png-image_17330751_4
+  - first:
+      213: 2534508443299182984
+    second: pngtree-a-sack-of-sugar-png-image_17330751_5
+  - first:
+      213: 4230499741633231827
+    second: pngtree-a-sack-of-sugar-png-image_17330751_6
+  - first:
+      213: -6106499242661572856
+    second: pngtree-a-sack-of-sugar-png-image_17330751_7
+  - first:
+      213: 4115854843360863713
+    second: pngtree-a-sack-of-sugar-png-image_17330751_8
+  - first:
+      213: 5545816184963128363
+    second: pngtree-a-sack-of-sugar-png-image_17330751_9
+  - first:
+      213: 2468421290503007902
+    second: pngtree-a-sack-of-sugar-png-image_17330751_10
+  - first:
+      213: -8199170126203922270
+    second: pngtree-a-sack-of-sugar-png-image_17330751_11
+  - first:
+      213: -3149998119303069577
+    second: pngtree-a-sack-of-sugar-png-image_17330751_12
+  - first:
+      213: -4983452970524672626
+    second: pngtree-a-sack-of-sugar-png-image_17330751_13
+  - first:
+      213: -4843118274929364982
+    second: pngtree-a-sack-of-sugar-png-image_17330751_14
+  - first:
+      213: 302975695087610884
+    second: pngtree-a-sack-of-sugar-png-image_17330751_15
+  - first:
+      213: 3656108764620416228
+    second: pngtree-a-sack-of-sugar-png-image_17330751_16
+  - first:
+      213: 8183341128312390988
+    second: pngtree-a-sack-of-sugar-png-image_17330751_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 2404
+        height: 2461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8647708acbe3b5f50800000000000000
+      internalID: 6871154636477658216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_1
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2397
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75716336fe0dd42e0800000000000000
+      internalID: -2139824521350867113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_2
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1968
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac57c44959b55abd0800000000000000
+      internalID: -2619586910249781814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_3
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1796
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9282c1159a02b0fe0800000000000000
+      internalID: -1221846962318596055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_4
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 1368
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebb0bd70afb46eb0800000000000000
+      internalID: -4727443012807771158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_5
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1195
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889731330026c2320800000000000000
+      internalID: 2534508443299182984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_6
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 766
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db3e62d911c5ba30800000000000000
+      internalID: 4230499741633231827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_7
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 594
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f07fbda4b514ba0800000000000000
+      internalID: -6106499242661572856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_8
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 166
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5689d5c247e1930800000000000000
+      internalID: 4115854843360863713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cd65eef62b6fc40800000000000000
+      internalID: 5545816184963128363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e6170e518914220800000000000000
+      internalID: 2468421290503007902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_11
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8de961632b63e80800000000000000
+      internalID: -8199170126203922270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_12
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770cacf5665f844d0800000000000000
+      internalID: -3149998119303069577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_13
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8df2014de737dab0800000000000000
+      internalID: -4983452970524672626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_14
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00f1a1c699c9ccb0800000000000000
+      internalID: -4843118274929364982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_15
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c26491ac2643400800000000000000
+      internalID: 302975695087610884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_16
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4646fec8b1db230800000000000000
+      internalID: 3656108764620416228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-sack-of-sugar-png-image_17330751_17
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 0
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4587e42661119170800000000000000
+      internalID: 8183341128312390988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-a-sack-of-sugar-png-image_17330751_0: 6871154636477658216
+      pngtree-a-sack-of-sugar-png-image_17330751_1: -2139824521350867113
+      pngtree-a-sack-of-sugar-png-image_17330751_10: 2468421290503007902
+      pngtree-a-sack-of-sugar-png-image_17330751_11: -8199170126203922270
+      pngtree-a-sack-of-sugar-png-image_17330751_12: -3149998119303069577
+      pngtree-a-sack-of-sugar-png-image_17330751_13: -4983452970524672626
+      pngtree-a-sack-of-sugar-png-image_17330751_14: -4843118274929364982
+      pngtree-a-sack-of-sugar-png-image_17330751_15: 302975695087610884
+      pngtree-a-sack-of-sugar-png-image_17330751_16: 3656108764620416228
+      pngtree-a-sack-of-sugar-png-image_17330751_17: 8183341128312390988
+      pngtree-a-sack-of-sugar-png-image_17330751_2: -2619586910249781814
+      pngtree-a-sack-of-sugar-png-image_17330751_3: -1221846962318596055
+      pngtree-a-sack-of-sugar-png-image_17330751_4: -4727443012807771158
+      pngtree-a-sack-of-sugar-png-image_17330751_5: 2534508443299182984
+      pngtree-a-sack-of-sugar-png-image_17330751_6: 4230499741633231827
+      pngtree-a-sack-of-sugar-png-image_17330751_7: -6106499242661572856
+      pngtree-a-sack-of-sugar-png-image_17330751_8: 4115854843360863713
+      pngtree-a-sack-of-sugar-png-image_17330751_9: 5545816184963128363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
