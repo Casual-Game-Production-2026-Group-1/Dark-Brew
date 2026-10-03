@@ -3223,7 +3223,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3959856660837764015, guid: 6f17b638ed540fc47bc9d9f99cb3c282, type: 3}
       propertyPath: buffer
-      value: 200
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: -3959856660837764015, guid: 6f17b638ed540fc47bc9d9f99cb3c282, type: 3}
       propertyPath: character_controller
