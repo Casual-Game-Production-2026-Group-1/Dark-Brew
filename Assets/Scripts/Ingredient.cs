@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using System.Reflection;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using static Utilities;
@@ -16,6 +17,12 @@ public class Ingredient : Draggable
         if (overlapping)
         {
             print(overlapping_object.name);
+            // If we're overlapping an appliance and the ingredient is valid, activate it
+            Appliance overlapping_appliance = overlapping_object.GetComponent<Appliance>();
+            if (overlapping_appliance != null && overlapping_appliance.ingredients.Contains(ingredient_name))
+            {
+                overlapping_appliance.Activate(ingredient_name, this.gameObject);
+            }
             // If we're overlapping a coffee and the ingredient isn't already added, add it
             Coffee overlapping_coffee = overlapping_object.GetComponent<Coffee>();
             if (overlapping_coffee != null && !overlapping_coffee.ingredients.Contains(ingredient_name))
@@ -32,12 +39,11 @@ public class Ingredient : Draggable
     {
         if (grabbed)
         {
-            print(ingredient_name + " overlapping something");
+            print(ingredient_name + " overlapping " + other.gameObject.name);
             if (other.gameObject.layer == 3)
             {
                 overlapping = true;
                 overlapping_object = other.gameObject;
-                print(ingredient_name + " overlapping coffee");
             }
         }
     }
@@ -47,12 +53,11 @@ public class Ingredient : Draggable
     {
         if (grabbed)
         {
-            print(ingredient_name + " stopped overlapping something");
-            if (other.gameObject.layer == 3)
+            print(ingredient_name + " stopped overlapping " + other.gameObject.name);
+            if (other.gameObject.layer == 3 && overlapping_object == other.gameObject)
             {
                 overlapping = false;
                 overlapping_object = null;
-                print(ingredient_name + " stopped overlapping coffee");
             }
         }
     }

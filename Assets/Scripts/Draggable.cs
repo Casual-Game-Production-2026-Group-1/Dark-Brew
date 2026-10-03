@@ -17,6 +17,7 @@ public class Draggable : MonoBehaviour
     // Should this object do something once it's dropped
     public bool droppable = false;
     UnityEngine.Vector3 init_pos;
+    UnityEngine.Vector3 init_local_pos;
     protected bool grabbed = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,6 +25,7 @@ public class Draggable : MonoBehaviour
     {
         // Save object's initital position
         init_pos = this.transform.position;
+        init_local_pos = this.transform.localPosition;
     }
 
     // Update is called once per frame
@@ -61,6 +63,7 @@ public class Draggable : MonoBehaviour
                     if (anchored)
                     {
                         this.transform.position = init_pos;
+                        this.transform.localPosition = init_local_pos;
                     }
                 }
                 grabbed = false;
