@@ -14,16 +14,26 @@ public class Draggable : MonoBehaviour
     public float zdepth = 1.0f;
     // Should this object return to its start point when you stop holding
     public bool anchored = false;
+    // Should this anchored object interpolate its movement
+    public bool interpolate = true;
+    public float interp_time = 1.0f;
     // Should this object do something once it's dropped
     public bool droppable = false;
     UnityEngine.Vector3 init_pos;
+    UnityEngine.Vector3 init_local_pos;
     protected bool grabbed = false;
+    int elapsed_time;
+    private UnityEngine.Vector3 lerp_pos;
+    private UnityEngine.Vector3 lerp_local_pos;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         // Save object's initital position
         init_pos = this.transform.position;
+        init_local_pos = this.transform.localPosition;
+        lerp_pos = init_pos;
+        lerp_local_pos = init_local_pos;
     }
 
     // Update is called once per frame
@@ -52,6 +62,7 @@ public class Draggable : MonoBehaviour
             {
                 if (grabbed)
                 {
+                    elapsed_time = 0;
                     // If the object is droppable, run the dropped func
                     if (droppable)
                     {
@@ -60,13 +71,41 @@ public class Draggable : MonoBehaviour
                     // If the object is anchored, return to the initial position
                     if (anchored)
                     {
-                        this.transform.position = init_pos;
+                        if (interpolate)
+                        {
+                            lerp_pos = init_pos;
+                            lerp_local_pos = init_local_pos;
+                        }
+                        else
+                        {
+                            this.transform.position = init_pos;
+                            this.transform.localPosition = init_local_pos;
+                        }
                     }
                 }
                 grabbed = false;
             }
         }
         // TODO: Put mouse controls here
+        if (!grabbed)
+        {
+            if (this.transform.position != lerp_pos)
+            {
+                float interp_ratio = (float)elapsed_time / (interp_time * 60.0f);
+                // Interpolate position of the drawer, based on the ratio of elapsed time
+                this.transform.position = UnityEngine.Vector3.Lerp(this.transform.position, lerp_pos, interp_ratio);
+
+                elapsed_time += 1;
+            }
+            if (this.transform.localPosition != lerp_local_pos)
+            {
+                float interp_ratio = (float)elapsed_time / (interp_time * 0.2f * 60.0f);
+                // Interpolate position of the drawer, based on the ratio of elapsed time
+                this.transform.localPosition = UnityEngine.Vector3.Lerp(this.transform.localPosition, lerp_local_pos, interp_ratio);
+
+                elapsed_time += 1;
+            }
+        }
     }
 
     protected virtual void Dropped()

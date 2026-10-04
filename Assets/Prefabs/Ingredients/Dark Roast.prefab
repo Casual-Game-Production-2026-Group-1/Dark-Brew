@@ -52,6 +52,7 @@ MonoBehaviour:
   anchored: 1
   droppable: 1
   ingredient_name: dark_roast
+  addable_to_coffee: 0
 --- !u!212 &4753477111145844987
 SpriteRenderer:
   serializedVersion: 3
