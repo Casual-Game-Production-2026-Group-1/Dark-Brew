@@ -58,6 +58,7 @@ public class BasicInkExample : MonoBehaviour
 			}
 		}
 		// If we've read all the content and there's no choices, the story is finished!
+		/*
 		else
 		{
 			Button choice = CreateChoiceView("End of story.\nRestart?");
@@ -66,6 +67,7 @@ public class BasicInkExample : MonoBehaviour
 				StartStory();
 			});
 		}
+		*/
 	}
 
 	// When we click the choice button, tell the story to choose that choice!
@@ -79,6 +81,7 @@ public class BasicInkExample : MonoBehaviour
 	void CreateContentView(string text)
 	{
 		Text storyText = Instantiate(textPrefab) as Text;
+		savedText += text;
 		storyText.text = text;
 		storyText.transform.SetParent(canvas.transform, false);
 	}
@@ -123,4 +126,7 @@ public class BasicInkExample : MonoBehaviour
 	private Text textPrefab = null;
 	[SerializeField]
 	private Button buttonPrefab = null;
+
+	// Save text
+	private string savedText = null;
 }
