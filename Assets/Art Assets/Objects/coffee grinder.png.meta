@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1b8c360dae1189e43b66f15a8b999219
+guid: bbabfc9691351014d867d94ed34a46af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2286182719822126978
-    second: background_sketch_0
+      213: 8530060782365203640
+    second: coffee grinder_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background_sketch_0
+      name: coffee grinder_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1852
-        height: 856
+        x: 1225
+        y: 375
+        width: 204
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e70ad55dde8d540e0800000000000000
-      internalID: -2286182719822126978
+      spriteID: 8bc5e5d561dd06670800000000000000
+      internalID: 8530060782365203640
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      background_sketch_0: -2286182719822126978
+      coffee grinder_0: 8530060782365203640
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

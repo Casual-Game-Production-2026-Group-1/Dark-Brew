@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1b8c360dae1189e43b66f15a8b999219
+guid: 2624c780fa6637c4b8a06bbdc41b1ba8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2286182719822126978
-    second: background_sketch_0
+      213: -6557093795858249615
+    second: screen 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background_sketch_0
+      name: screen 2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e70ad55dde8d540e0800000000000000
-      internalID: -2286182719822126978
+      spriteID: 17883f20fe58005a0800000000000000
+      internalID: -6557093795858249615
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      background_sketch_0: -2286182719822126978
+      screen 2_0: -6557093795858249615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

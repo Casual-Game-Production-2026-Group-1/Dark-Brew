@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1b8c360dae1189e43b66f15a8b999219
+guid: ca7cf50f08fd0ee4186ed38b26edef88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2286182719822126978
-    second: background_sketch_0
+      213: 2590607212378916536
+    second: Cup Empty_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background_sketch_0
+      name: Cup Empty_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1852
-        height: 856
+        width: 495
+        height: 531
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e70ad55dde8d540e0800000000000000
-      internalID: -2286182719822126978
+      spriteID: 8b60966b88fa3f320800000000000000
+      internalID: 2590607212378916536
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      background_sketch_0: -2286182719822126978
+      Cup Empty_0: 2590607212378916536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
