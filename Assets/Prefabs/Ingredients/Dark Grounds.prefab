@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2628648781553373892}
   - component: {fileID: 1849383587424482767}
   m_Layer: 6
-  m_Name: Dark Roast
+  m_Name: Dark Grounds
   m_TagString: CoffeeCup
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7259817329955161351}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 239.4, y: 239.4, z: 239.4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -49,10 +49,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Ingredient
   buffer: 100
   zdepth: 1
-  anchored: 1
+  anchored: 0
   droppable: 1
-  ingredient_name: dark_roast
-  addable_to_coffee: 0
+  ingredient_name: dark_grounds
 --- !u!212 &4753477111145844987
 SpriteRenderer:
   serializedVersion: 3
@@ -102,8 +101,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 36f0453bc688297409112cd97035c62b, type: 3}
-  m_Color: {r: 0.99215686, g: 0.48472935, b: 0.3333334, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 8baac83d59e1bca49a3bdaeaf731559b, type: 3}
+  m_Color: {r: 0.99215686, g: 0.4862745, b: 0.33333334, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -147,17 +146,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.09, y: -0.06}
+  m_Offset: {x: 0.09, y: 0.31}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3.6}
+    oldSize: {x: 11.86, y: 9.8}
     newSize: {x: 3.6, y: 3.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.09, y: 3.26}
+  m_Size: {x: 9.37, y: 6.51}
   m_EdgeRadius: 0
 --- !u!50 &1849383587424482767
 Rigidbody2D:

@@ -10,6 +10,7 @@ using static Utilities;
 public class Ingredient : Draggable
 {
     public string ingredient_name = "[Ingredient name]";
+    public bool addable_to_coffee = true;
     bool overlapping = false;
     GameObject overlapping_object;
     protected override void Dropped()
@@ -21,11 +22,11 @@ public class Ingredient : Draggable
             Appliance overlapping_appliance = overlapping_object.GetComponent<Appliance>();
             if (overlapping_appliance != null && overlapping_appliance.ingredients.Contains(ingredient_name))
             {
-                overlapping_appliance.Activate(ingredient_name, this.gameObject);
+                overlapping_appliance.DropActivate(ingredient_name, this.gameObject);
             }
             // If we're overlapping a coffee and the ingredient isn't already added, add it
             Coffee overlapping_coffee = overlapping_object.GetComponent<Coffee>();
-            if (overlapping_coffee != null && !overlapping_coffee.ingredients.Contains(ingredient_name))
+            if (addable_to_coffee && overlapping_coffee != null && !overlapping_coffee.ingredients.Contains(ingredient_name))
             {
                 overlapping_coffee.ingredients.Add(ingredient_name);
             }
@@ -39,11 +40,11 @@ public class Ingredient : Draggable
     {
         if (grabbed)
         {
-            print(ingredient_name + " overlapping " + other.gameObject.name);
-            if (other.gameObject.layer == 3)
+            if (other.gameObject.layer == 3 || other.gameObject.layer == 7)
             {
                 overlapping = true;
                 overlapping_object = other.gameObject;
+                print(ingredient_name + " overlapping " + other.gameObject.name);
             }
         }
     }
@@ -53,11 +54,11 @@ public class Ingredient : Draggable
     {
         if (grabbed)
         {
-            print(ingredient_name + " stopped overlapping " + other.gameObject.name);
-            if (other.gameObject.layer == 3 && overlapping_object == other.gameObject)
+            if ((other.gameObject.layer == 3 || other.gameObject.layer == 7) && overlapping_object == other.gameObject)
             {
                 overlapping = false;
                 overlapping_object = null;
+                print(ingredient_name + " stopped overlapping " + other.gameObject.name);
             }
         }
     }

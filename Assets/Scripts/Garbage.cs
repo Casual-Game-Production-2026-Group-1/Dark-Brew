@@ -8,7 +8,7 @@ using static Utilities;
 
 public class Garbage : Appliance
 {
-    public override void Activate(string input_name, GameObject activator)
+    public override void DropActivate(string input_name, GameObject activator)
     {
         Coffee activating_coffee = activator.GetComponent<Coffee>();
         if (activating_coffee != null)
@@ -16,6 +16,6 @@ public class Garbage : Appliance
             activating_coffee.ingredients.Clear();
             print("Trashed coffe");
         }
-        base.Activate(input_name, activator);
+        base.DropActivate(input_name, activator);
     }
 }

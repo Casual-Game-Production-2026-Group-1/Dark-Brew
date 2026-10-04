@@ -70,6 +70,10 @@ public class Draggable : MonoBehaviour
             }
         }
         // TODO: Put mouse controls here
+        if (!grabbed)
+        {
+
+        }
     }
 
     protected virtual void Dropped()

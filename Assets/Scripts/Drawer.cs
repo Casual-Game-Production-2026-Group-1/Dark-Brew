@@ -12,7 +12,7 @@ public class Drawer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        init_pos = this.transform.position;
+        init_pos = this.transform.localPosition;
         lerp_pos = init_pos;
     }
 
@@ -22,7 +22,7 @@ public class Drawer : MonoBehaviour
         {
             float interp_ratio = (float)elapsed_time / (interp_time * 60.0f);
             // Interpolate position of the drawer, based on the ratio of elapsed time
-            this.transform.position = Vector3.Lerp(this.transform.position, lerp_pos, interp_ratio);
+            this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, lerp_pos, interp_ratio);
 
             elapsed_time += 1;
         }

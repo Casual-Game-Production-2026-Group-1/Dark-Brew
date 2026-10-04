@@ -8,8 +8,8 @@ using static Utilities;
 
 public class SubmissionTray : Appliance
 {
-    public override void Activate(string input_name, GameObject activator)
+    public override void DropActivate(string input_name, GameObject activator)
     {
-        base.Activate(input_name, activator);
+        base.DropActivate(input_name, activator);
     }
 }
