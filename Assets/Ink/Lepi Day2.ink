@@ -34,7 +34,10 @@ Hi Welcome to Dark Brew.
 
 
 === Lepi1_2 ===
-This is the content of the knot.
+(Lepi) Oh, ok then.
+* I'm sorry, didnt mean to offend you.
+(Lepi) It's fine. I won't bring it up again.
+-> Lepi2
 -> END
 
 
@@ -44,7 +47,6 @@ This is the content of the knot.
 -
 (Lepi) That sucks, don't worry I show you the recording next time.
 * I'll hold you to it.
-
 -> Lepi2
 -> END
 
