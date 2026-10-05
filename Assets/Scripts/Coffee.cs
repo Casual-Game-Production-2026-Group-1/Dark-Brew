@@ -5,6 +5,7 @@ using System.Numerics;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 using static Utilities;
 
 public class Coffee : Draggable
@@ -44,6 +45,7 @@ public class Coffee : Draggable
         else
         {
             print(" - Submitted coffee: Wrong order!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 

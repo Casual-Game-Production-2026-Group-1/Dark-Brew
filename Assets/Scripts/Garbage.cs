@@ -4,7 +4,9 @@ using System.Numerics;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 using static Utilities;
+using System.Threading;
 
 public class Garbage : Appliance
 {
@@ -14,7 +16,9 @@ public class Garbage : Appliance
         if (activating_coffee != null)
         {
             activating_coffee.ingredients.Clear();
-            print("Trashed coffe");
+            print("Trashed coffee");
+           
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         base.DropActivate(input_name, activator);
     }
