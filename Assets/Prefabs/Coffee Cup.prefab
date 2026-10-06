@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4753477111145844987}
   - component: {fileID: 2628648781553373892}
   - component: {fileID: 6148537513893029400}
+  - component: {fileID: -7756621164311229303}
   m_Layer: 3
   m_Name: Coffee Cup
   m_TagString: CoffeeCup
@@ -50,8 +51,11 @@ MonoBehaviour:
   buffer: 100
   zdepth: 1
   anchored: 1
+  interpolate: 1
+  interp_time: 1
   droppable: 1
   ingredients: []
+  ingredient_name: coffee
   character_controller: {fileID: 0}
 --- !u!212 &4753477111145844987
 SpriteRenderer:
@@ -186,3 +190,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-7756621164311229303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259817329955161351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 5b75eed28379e2d40b06a711e554e478, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Touch
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

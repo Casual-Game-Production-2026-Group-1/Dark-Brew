@@ -3,9 +3,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
+using UnityEngine.InputSystem;
 using static Utilities;
 
-public class SpriteButton : MonoBehaviour
+public class SpriteButton : TouchManager
 {
     [Serializable]
     public class ButtonClickedEvent : UnityEvent
@@ -32,23 +33,13 @@ public class SpriteButton : MonoBehaviour
     // Set the zdepth while being held
     public float zdepth = 1.0f;
 
-    // Update is called once per frame
-    void Update()
+    protected override void TouchPressed(InputAction.CallbackContext context)
     {
-        // If the player is touching the screen
-        if (Input.touchCount > 0)
+        base.TouchPressed(context);
+        if (context.performed && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
         {
-            Touch touch = Input.GetTouch(0);
-            // Convert the touch point to world coordinates
-            UnityEngine.Vector3 touch_point = Camera.main.ScreenToWorldPoint(new UnityEngine.Vector3(touch.position.x, touch.position.y, zdepth));
-
-            // Click when the player taps the button
-            if (touch.phase == TouchPhase.Began && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
-            {
-                UISystemProfilerApi.AddMarker("Button.onClick", this);
-                m_OnClick.Invoke();
-            }
+            UISystemProfilerApi.AddMarker("Button.onClick", this);
+            m_OnClick.Invoke();
         }
-        // TODO: Put mouse controls here
     }
 }

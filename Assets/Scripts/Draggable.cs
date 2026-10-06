@@ -4,9 +4,10 @@ using System.Numerics;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.InputSystem;
 using static Utilities;
 
-public class Draggable : MonoBehaviour
+public class Draggable : TouchManager
 {
     // How close must the player tap to interact
     public float buffer = 1.0f;
@@ -39,54 +40,12 @@ public class Draggable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // If the player is touching the screen
-        if (Input.touchCount > 0)
+        // If the player is grabbing the object
+        if (grabbed)
         {
-            Touch touch = Input.GetTouch(0);
-            // Convert the touch point to world coordinates
-            UnityEngine.Vector3 touch_point = Camera.main.ScreenToWorldPoint(new UnityEngine.Vector3(touch.position.x, touch.position.y, zdepth));
-
             // Start following when the player holds the object
-            if (touch.phase == TouchPhase.Began && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
-            {
-                this.transform.position = new UnityEngine.Vector3(touch_point.x, touch_point.y, init_pos.z);
-                grabbed = true;
-            }
-            // Continue following while the player is holding
-            if (touch.phase == TouchPhase.Moved && grabbed)
-            {
-                this.transform.position = new UnityEngine.Vector3(touch_point.x, touch_point.y, init_pos.z);
-            }
-            // Stop following when the player stops holding
-            if (touch.phase == TouchPhase.Ended)
-            {
-                if (grabbed)
-                {
-                    elapsed_time = 0;
-                    // If the object is droppable, run the dropped func
-                    if (droppable)
-                    {
-                        Dropped();
-                    }
-                    // If the object is anchored, return to the initial position
-                    if (anchored)
-                    {
-                        if (interpolate)
-                        {
-                            lerp_pos = init_pos;
-                            lerp_local_pos = init_local_pos;
-                        }
-                        else
-                        {
-                            this.transform.position = init_pos;
-                            this.transform.localPosition = init_local_pos;
-                        }
-                    }
-                }
-                grabbed = false;
-            }
+            this.transform.position = new UnityEngine.Vector3(touch_point.x, touch_point.y, init_pos.z);
         }
-        // TODO: Put mouse controls here
         if (!grabbed)
         {
             if (this.transform.position != lerp_pos)
@@ -105,6 +64,43 @@ public class Draggable : MonoBehaviour
 
                 elapsed_time += 1;
             }
+        }
+    }
+
+    protected override void TouchPressed(InputAction.CallbackContext context)
+    {
+        base.TouchPressed(context);
+        if (context.canceled)
+        {
+            elapsed_time = 0;
+            if (grabbed)
+            {
+                // If the object is droppable, run the dropped func
+                if (droppable)
+                {
+                    Dropped();
+                }
+                // If the object is anchored, return to the initial position
+                if (anchored)
+                {
+                    if (interpolate)
+                    {
+                        lerp_pos = init_pos;
+                        lerp_local_pos = init_local_pos;
+                    }
+                    else
+                    {
+                        this.transform.position = init_pos;
+                        this.transform.localPosition = init_local_pos;
+                    }
+                }
+            }
+            grabbed = false;
+        }
+        // Start following when the player holds the object
+        if (context.performed && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
+        {
+            grabbed = true;
         }
     }
 
