@@ -42,7 +42,7 @@ This is the content of the knot.
 
 
 === Phobo2 ===
-(🦋) How do you handle the stress?
+(???) How do you handle the stress?
 
 * This is a choice that can only be chosen once
 
