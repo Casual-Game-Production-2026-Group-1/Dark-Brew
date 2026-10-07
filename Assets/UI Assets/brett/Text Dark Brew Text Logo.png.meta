@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: af121980456e49f46a1a2522478581aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 172185052874043290
+    second: Text Dark Brew Text Logo_0
+  - first:
+      213: -8301082377418663751
+    second: Text Dark Brew Text Logo_1
+  - first:
+      213: 3448748484968851693
+    second: Text Dark Brew Text Logo_2
+  - first:
+      213: 3471346030639711371
+    second: Text Dark Brew Text Logo_3
+  - first:
+      213: -549564539577234779
+    second: Text Dark Brew Text Logo_4
+  - first:
+      213: -1432142107835556459
+    second: Text Dark Brew Text Logo_5
+  - first:
+      213: 3516329424830465139
+    second: Text Dark Brew Text Logo_6
+  - first:
+      213: 6384174552042131203
+    second: Text Dark Brew Text Logo_7
+  - first:
+      213: 8210289196616818345
+    second: Text Dark Brew Text Logo_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 306
+        width: 230
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f6030b469b36200800000000000000
+      internalID: 172185052874043290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 285
+        width: 178
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b894ba0f81accc80800000000000000
+      internalID: -8301082377418663751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 280
+        width: 101
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de82c3e897a6cdf20800000000000000
+      internalID: 3448748484968851693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_3
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 276
+        width: 160
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b840eb8a2d2bc2030800000000000000
+      internalID: 3471346030639711371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_4
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 294
+        width: 204
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa095586fd8f58f0800000000000000
+      internalID: -549564539577234779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_5
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 281
+        width: 107
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d159a3752002ce0800000000000000
+      internalID: -1432142107835556459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_6
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 292
+        width: 160
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37406484bf28cc030800000000000000
+      internalID: 3516329424830465139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_7
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 298
+        width: 280
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f4f862ee4299850800000000000000
+      internalID: 6384174552042131203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text Dark Brew Text Logo_8
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 280
+        width: 350
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae929b368ec0f170800000000000000
+      internalID: 8210289196616818345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Text Dark Brew Text Logo_0: 172185052874043290
+      Text Dark Brew Text Logo_1: -8301082377418663751
+      Text Dark Brew Text Logo_2: 3448748484968851693
+      Text Dark Brew Text Logo_3: 3471346030639711371
+      Text Dark Brew Text Logo_4: -549564539577234779
+      Text Dark Brew Text Logo_5: -1432142107835556459
+      Text Dark Brew Text Logo_6: 3516329424830465139
+      Text Dark Brew Text Logo_7: 6384174552042131203
+      Text Dark Brew Text Logo_8: 8210289196616818345
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
