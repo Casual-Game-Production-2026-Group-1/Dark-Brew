@@ -6,7 +6,7 @@
 -
 * What is your name?
 -
-(Lepi) My name is Lepidopterophobia, but you can call me Lepi.
+(🦋) My name is Lepidopterophobia, but you can call me Lepi.
 
 * Nice to meet you Lepi, how's your day going?
 -> Main1

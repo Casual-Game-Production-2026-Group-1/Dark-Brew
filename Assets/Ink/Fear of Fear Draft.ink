@@ -33,6 +33,7 @@ Hi Welcome to Dark Brew.
 === Phobo1_2 ===
 (Phobo) Yeah I know
 (Phobo) I've been doing meditation to take it slow. 
+-> Phobo2
 -> END
 
 === Phobo1_3 ===
@@ -41,10 +42,9 @@ This is the content of the knot.
 
 
 === Phobo2 ===
-(Phobo) How do you handle the stress?
+(🦋) How do you handle the stress?
 
 * This is a choice that can only be chosen once
-
 
 
 -> END
