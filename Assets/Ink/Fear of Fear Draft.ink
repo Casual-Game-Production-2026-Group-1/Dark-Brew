@@ -26,11 +26,13 @@ Hi Welcome to Dark Brew.
 
 
 === Phobo1_1 ===
-This is the content of the knot.
+(Phobo) Really? It's hard to find someone who is like me.
+
 -> END
 
 === Phobo1_2 ===
-This is the content of the knot.
+(Phobo) Yeah I know
+(Phobo) I've been doing meditation to take it slow. 
 -> END
 
 === Phobo1_3 ===
@@ -39,6 +41,11 @@ This is the content of the knot.
 
 
 === Phobo2 ===
+(Phobo) How do you handle the stress?
+
+* This is a choice that can only be chosen once
+
+
 
 -> END
 
