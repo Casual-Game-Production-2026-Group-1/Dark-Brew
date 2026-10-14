@@ -41,6 +41,7 @@ public class Coffee : Draggable
         if (string.Join(", ", character_controller.order) == string.Join(", ", ingredients))
         {
             print(" - Submitted coffee: Correct order!");
+            ScoreManager.Instance.addCoffee();
         }
         else
         {
