@@ -44,15 +44,14 @@ public class DraggableAroundPivot : TouchManager
         // If the player is grabbing the object
         if (grabbed)
         {
-            // Find the vector pointing to the touch point
-            lerp_pos = (touch_point - this.transform.position).normalized;
+            Ray ray = Camera.main.ScreenPointToRay(touch_point);
 
-            // Rotate towards the touch point vector
-            lerp_rot = UnityEngine.Quaternion.LookRotation(lerp_pos);
-            target_rot = UnityEngine.Quaternion.Slerp(this.transform.rotation, lerp_rot, Time.deltaTime * interp_time).eulerAngles.z;
+            if (Physics.Raycast(ray, out RaycastHit raycastHit))
+            {
+                UnityEngine.Vector3 rotate_towards = new UnityEngine.Vector3(raycastHit.point.x, this.transform.position.y, raycastHit.point.z);
+                this.transform.LookAt(raycastHit.point);
+            }
 
-            // Convert the quat rotation to euler z rotation
-            this.transform.eulerAngles = new UnityEngine.Vector3(this.transform.eulerAngles.x, this.transform.eulerAngles.y, target_rot);
         }
     }
 
