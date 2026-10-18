@@ -1,12 +1,12 @@
 * Hi, welcome to Dark Brew, what can I get ya?
-(???) Hi can I get a Normal Espresso
+(???) Hello, may I get a Normal Espresso
 -
 
 * Sure, coming right up
 -
 * What is your name?
 -
-(Lepi) My name is Lepidopterophobia, but you can call me Lepi.
+(Lepi) My name is Lepidopterophobia, but you may call me Lepi.
 
 * Nice to meet you Lepi, how's your day going?
 -> Main1
@@ -16,13 +16,13 @@
 * That's a weird name
 -> NameMean
 === NameMean ===
-(Lepi) Oh it is, ok then. Can I get my coffee please.
+(Lepi) Oh it is then. May I get my beverage please.
 * Yes you can, it is almost done.
 -> END
 
 === Main1 ===
 
-(Lepi) It’s going ok, someone screamed and ran away when I was walking here.
+(Lepi) It’s going marvelous, a bloke screamed and ran away when I was walking here.
 -
 * I see why lol
 -> Mean1
@@ -32,39 +32,39 @@
 -> Neutral1
 -> END
 === Mean1===
-(Lepi) How rude of you to say that, just give me my coffee and let me on my way.
+(Lepi) What choice words, just give me my coffee and let me on my way.
 * Sure, whatever ->END
 * On it, sorry about my joke, it was in poor taste ->END
 * Yes maam
 -> END
 
 === Nice1 ===
-(Lepi) Thank you,but I get it all too often nowadays.
+(Lepi) Thank you, but I get it all too often these days.
 -> Main2
 -> END
 
 === Neutral1 ===
-(Lepi) Thank you, people can be so harsh these days.
+(Lepi) Thank you darling, people can be so harsh these days.
 * Yeah I know, but you can't control other people, only yourself.
-(Lepi) Yeah I know, thanks for letting me vent to you.
+(Lepi) Yes I know, thank you for allowing an aging soul to vent.
 -
-(Lepi) See you tomorrow?
-* I'll be on shift, see you then.
--> END
+* Your welcome, happy to help.
+-> Main2
 
 
 === Main2 ===
 * Sometimes people can be mean, you just have to worry about yourself you know.
-(Lepi) Thanks, can I get my coffee please, I'm in a bit of a rush.
+(Lepi) Thank you, may I get my coffee please?
+(Lepi) I'm quite knackered and in a rush.
 -
 * Yes, almost done.
-(Lepi) Thank you so much, have a good day
+(Lepi) Thank you so much, may your day be splendid.
 -> END
 
 
 === Name3 ===
-(Lepi) Thanks
-(Lepi) Haven't seen you working here before, you new?
+(Lepi) Thank you
+(Lepi) I haven't seen you working here before?
 * No, your just blind lol
 -> New1
 * Yeah, this is my first shift, your actually my first customer
@@ -74,7 +74,8 @@
 -> END
 
 === New1 ===
-(Lepi) Oh ok then, is my coffee almost done?
+(Lepi) Oh am I?
+(Lepi) Is my coffee almost done?
 * Yes it is, here you go.
 -> END
 
@@ -82,12 +83,13 @@
 (Lepi) I am, hoping I am doing a good job.
 *So far so good
 -
-(Lepi) Well thanks, gotta run, but hope I'll see you tomorrow.
-* See you tomorrow
+(Lepi) Well thank you, gotta dash, but may we have a poised conversation again.
+* See you next time
 -> END
 
 === Name4 ===
-(Lepi) Nice, well keep up the good work then, catch you around new barista.
+(Lepi) Nice, keep up the marvelous work
+(Lepi) Catch you next time new barista.
 * See you around.
 
 -> END
