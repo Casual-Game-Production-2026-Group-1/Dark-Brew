@@ -6,10 +6,20 @@ public class SceneController : MonoBehaviour
 {
     public List<CharController> customers = new List<CharController>();
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        return;
+        // Hide all customers and reveal the first one
+        for (int i = 0; i < customers.Count; i++)
+        {
+            if (i == 0)
+            {
+                customers[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                customers[i].gameObject.SetActive(false);
+            }
+        }
     }
 
     // Update is called once per frames
