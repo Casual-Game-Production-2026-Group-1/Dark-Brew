@@ -12,7 +12,7 @@ public class SceneController : MonoBehaviour
         return;
     }
 
-    // Update is called once per frame
+    // Update is called once per frames
     void Update()
     {
 
@@ -21,9 +21,18 @@ public class SceneController : MonoBehaviour
     public void NextCustomer()
     {
         // Disable current customer, remove them from the list, then enable the next customer
-        customers[0].gameObject.SetActive(false);
-        customers.RemoveAt(0);
-        customers[0].gameObject.SetActive(true);
-        print(customers[0].name);
+        // If there's no customers left, you win da game!
+        if (customers.Count > 1)
+        {
+            customers[0].gameObject.SetActive(false);
+            customers.RemoveAt(0);
+            customers.TrimExcess();
+            customers[0].gameObject.SetActive(true);
+        }
+        else
+        {
+            // TODO: Replace with end of day code
+            print("End of day");
+        }
     }
 }
