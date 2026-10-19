@@ -41,11 +41,13 @@ public class Coffee : Draggable
         if (string.Join(", ", scene_controller.customers[0].order) == string.Join(", ", ingredients))
         {
             print(" - Submitted coffee: Correct order!");
+            ingredients.Clear();
             scene_controller.NextCustomer();
         }
         else
         {
             print(" - Submitted coffee: Wrong order!");
+            ingredients.Clear();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
