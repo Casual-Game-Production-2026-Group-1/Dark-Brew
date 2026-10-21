@@ -1,3 +1,5 @@
+VAR player_score = 0
+
 Hi Welcome to Dark Brew.
 * What can I get ya?
 -
@@ -10,9 +12,11 @@ Hi Welcome to Dark Brew.
 (Lepi) It has been quite tiresome. Have a performance later tonight.
 
 * That sounds cool, what kind?
+~ player_score += 1
 -> Lepi1_1
 
 * Perfomances are lame.
+~ player_score -= 1
 -> Lepi1_2
 
 * Neat, break a leg haha.
@@ -63,12 +67,14 @@ Hi Welcome to Dark Brew.
 (Lepi) Yeah, its quite ironic doing stuff about about butterflies when well, I am one.
 
 * Thats ok, be your true self.
+~ player_score += 1
 -> Lepi2_1
 
 * Yeah its a bit ironic lol.
 -> Lepi2_2
 
 * What else would you do, a bumblebee?
+~ player_score -= 1
 -> Lepi2_3
 
 -> END
@@ -109,10 +115,12 @@ Hi Welcome to Dark Brew.
 (Lepi) Thank you, I shall make sure to tell you how it went.
 
 * Can't wait to hear.
+~ player_score += 1
 -> Lepi3_1
 * Have fun.
 -> Lepi3_2
 * Hope the stage doesn't catch fire lol.
+~ player_score -= 1
 -> Lepi3_3
 -> END
 

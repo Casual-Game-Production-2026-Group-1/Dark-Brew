@@ -1,3 +1,5 @@
+VAR player_score = 0
+
 * Hi, welcome to Dark Brew, what can I get ya?
 (???) Hello, may I get a Normal Espresso
 -
@@ -9,11 +11,13 @@
 (Lepi) My name is Lepidopterophobia, but you may call me Lepi.
 
 * Nice to meet you Lepi, how's your day going?
+~ player_score +=1
 -> Main1
 * Lepi, what a unique name.
 -> Name3
 
 * That's a weird name
+~ player_score -=1
 -> NameMean
 === NameMean ===
 (Lepi) Oh it is then. May I get my beverage please.
@@ -21,12 +25,13 @@
 -> END
 
 === Main1 ===
-
 (Lepi) It’s going marvelous, a bloke screamed and ran away when I was walking here.
 -
 * I see why lol
+~player_score -=1
 -> Mean1
 * How rude, what a jerk
+~ player_score +=1
 -> Nice1
 * Im sorry that happened.
 -> Neutral1
@@ -66,8 +71,10 @@
 (Lepi) Thank you
 (Lepi) I haven't seen you working here before?
 * No, your just blind lol
+~ player_score -=1
 -> New1
 * Yeah, this is my first shift, your actually my first customer
+~ player_score +=1
 -> Name2
 * Yeah I am new.
 -> Name4

@@ -1,3 +1,5 @@
+VAR player_score = 0
+
 Hi Welcome to Dark Brew.
 * What can I get ya?
 -
@@ -19,9 +21,11 @@ Hi Welcome to Dark Brew.
 -> Phobo1_1
 
 * That's ok, sometimes you just have to breath and take it slow.
+~ player_score += 1
 -> Phobo1_2
 
 * Wow that must suck for you.
+~ player_score -= 1
 -> Phobo1_3
 
 

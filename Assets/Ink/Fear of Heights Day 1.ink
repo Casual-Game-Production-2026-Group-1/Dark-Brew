@@ -1,3 +1,5 @@
+VAR player_score = 0
+
 (You) Hi, Welcome to Dark Brew
 * What can I get ya?
 -
@@ -39,9 +41,11 @@ Please
 (Acro) Been good so far.
 
 * Thats good.
+~ player_score += 1
 -> Acro1_1
 
 * How's the weather up there?
+~ player_score -= 1
 -> Acro1_2
 
 * This is a choice that can only be chosen once
@@ -89,9 +93,11 @@ This is the content of the knot.
 (Acro) No, my body definitely helps.
 
 * Yeah, I bet it has lots of unique perks.
+~ player_score += 1
 -> Acro2_1
 
 * Yeah, your freakishly tall.
+~ player_score -= 1
 -> Acro2_2
 
 * Did you always wanna do that?
