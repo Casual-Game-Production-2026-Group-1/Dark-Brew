@@ -1,13 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Reflection;
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.InputSystem;
 using static Utilities;
-using Unity.Android.Gradle.Manifest;
-using Unity.VisualScripting;
 
 public class DraggableAroundPivot : TouchManager
 {
