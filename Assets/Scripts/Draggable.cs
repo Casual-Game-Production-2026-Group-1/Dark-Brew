@@ -26,6 +26,7 @@ public class Draggable : TouchManager
     int elapsed_time;
     private UnityEngine.Vector3 lerp_pos;
     private UnityEngine.Vector3 lerp_local_pos;
+    private int init_order;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,6 +36,8 @@ public class Draggable : TouchManager
         init_local_pos = this.transform.localPosition;
         lerp_pos = init_pos;
         lerp_local_pos = init_local_pos;
+
+        init_order = this.GetComponent<SpriteRenderer>().sortingOrder;
     }
 
     // Update is called once per frame
@@ -45,6 +48,7 @@ public class Draggable : TouchManager
         {
             // Start following when the player holds the object
             this.transform.position = new UnityEngine.Vector3(touch_point.x, touch_point.y, init_pos.z);
+            this.GetComponent<SpriteRenderer>().sortingOrder = 999;
         }
         if (!grabbed)
         {
@@ -64,6 +68,7 @@ public class Draggable : TouchManager
 
                 elapsed_time += 1;
             }
+            this.GetComponent<SpriteRenderer>().sortingOrder = init_order;
         }
     }
 
