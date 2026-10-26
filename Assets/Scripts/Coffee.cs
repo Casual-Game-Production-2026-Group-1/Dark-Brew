@@ -12,7 +12,7 @@ public class Coffee : Draggable
 {
     public List<string> ingredients = new List<string>();
     public string ingredient_name = "coffee";
-    public SceneController scene_controller;
+    public CharController character_controller;
     bool overlapping = false;
     GameObject overlapping_object;
     protected override void Dropped()
@@ -38,17 +38,16 @@ public class Coffee : Draggable
     private void SubmitCoffee()
     {
         ingredients.Sort();
-        if (string.Join(", ", scene_controller.customers[0].order) == string.Join(", ", ingredients))
+        if (string.Join(", ", character_controller.order) == string.Join(", ", ingredients))
         {
             print(" - Submitted coffee: Correct order!");
-            scene_controller.NextCustomer();
+            ScoreManager.Instance.addCoffee();
         }
         else
         {
             print(" - Submitted coffee: Wrong order!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        ingredients.Clear();
     }
 
     // Set if coffee is overlapping submit tray
