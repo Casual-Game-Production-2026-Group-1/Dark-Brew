@@ -26,10 +26,6 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            addDialogue();
-        }
         if (coffeeScore == 1)
         {
             stars = 1;
@@ -42,6 +38,16 @@ public class ScoreManager : MonoBehaviour
         {
             stars = 3;
         }
+        //temporary failstate debug
+        if (coffeeScore == -1 && dialogueScore == -1)
+        {
+            Debug.Log("failstate");
+        }
+        //temporary coffee score subtraction debug
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            subCoffee();
+        }
     }
 
     public void addCoffee()
@@ -53,4 +59,27 @@ public class ScoreManager : MonoBehaviour
     {
         dialogueScore += 1;
     }
+
+    public void subCoffee()
+    {
+        coffeeScore -= 1;
+    }
+
+    public void subDialogue()
+    {
+        dialogueScore -= 1;
+    }
+
+    public void getDialogue(int score)
+    {
+        if (score > 0)
+        {
+            addDialogue();
+        }
+        else if (score < 0)
+        {
+            subDialogue();
+        }
+    }
+    //TODO: have score calculate based on number of characters per day
 }
