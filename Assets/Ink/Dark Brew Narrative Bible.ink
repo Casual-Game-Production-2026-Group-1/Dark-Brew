@@ -11,3 +11,6 @@ Lepi is a poised but slightly stern dancer with slight British tendencies.
 
 Acro is a slow talking, gentle giant. He is a construction worker who wants to help people.
 
+Ari is a weaver/author with a lot of kids. They are over worked and never speak in difinitives.
+
+Than is stoic, and not speaks in long winded thoughts. Very scholarly like.

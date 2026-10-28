@@ -73,7 +73,7 @@ VAR player_score = 0
 * No, your just blind lol
 ~ player_score -=1
 -> New1
-* Yeah, this is my first shift, your actually my first customer
+* Yeah, this is my first shift, you're actually my first customer
 ~ player_score +=1
 -> Name2
 * Yeah I am new.
