@@ -34,13 +34,14 @@ public class DraggableAroundPivot : TouchManager
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         // If the player is grabbing the object
         if (grabbed)
         {
             this.transform.eulerAngles += new UnityEngine.Vector3(0,0,-0.5f);
         }
+        base.Update();
     }
 
     protected override void TouchPressed(InputAction.CallbackContext context)

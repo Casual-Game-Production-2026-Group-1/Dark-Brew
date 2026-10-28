@@ -12,6 +12,10 @@ public class TouchManager : MonoBehaviour
     // Touch vars
     protected Vector3 touch_point;
 
+    protected virtual void Update()
+    {
+        // Override this
+    }
 
     private void Awake()
     {
