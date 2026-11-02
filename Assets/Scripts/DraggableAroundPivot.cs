@@ -21,7 +21,7 @@ public class DraggableAroundPivot : TouchManager
     private UnityEngine.Quaternion lerp_rot;
     private UnityEngine.Vector3 lerp_pos;
     private float target_rot;
-    private CircleCollider2D col;
+    public CircleCollider2D col;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,7 +30,6 @@ public class DraggableAroundPivot : TouchManager
         init_rot = this.transform.rotation;
         lerp_pos = this.transform.position;
         lerp_rot = init_rot;
-        col = this.GetComponent<CircleCollider2D>();
     }
 
     // Update is called once per frame
@@ -39,7 +38,7 @@ public class DraggableAroundPivot : TouchManager
         // If the player is grabbing the object
         if (grabbed)
         {
-            this.transform.eulerAngles += new UnityEngine.Vector3(0,0,-0.5f);
+            this.transform.eulerAngles += new UnityEngine.Vector3(0, 0, -0.5f);
         }
         base.Update();
     }
@@ -62,7 +61,7 @@ public class DraggableAroundPivot : TouchManager
     protected override void TouchMoved(InputAction.CallbackContext context)
     {
         base.TouchMoved(context);
-        if (context.performed && ! IsNearVector2(new Vector2(touch_point.x, touch_point.y), new Vector2(col.bounds.center.x, col.bounds.center.y), col.radius / 2.0f))
+        if (context.performed && !IsNearVector2(new Vector2(touch_point.x, touch_point.y), new Vector2(col.bounds.center.x, col.bounds.center.y), col.radius / 2.0f))
         {
             elapsed_time = 0;
             grabbed = false;

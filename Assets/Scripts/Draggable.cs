@@ -41,7 +41,7 @@ public class Draggable : TouchManager
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         // If the player is grabbing the object
         if (grabbed)

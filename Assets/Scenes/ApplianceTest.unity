@@ -523,6 +523,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brewer
       objectReference: {fileID: 0}
+    - target: {fileID: 9099004788674874492, guid: c5d124cfc00e2fd4f9e76bbfa4394ba3, type: 3}
+      propertyPath: ingredients.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099004788674874492, guid: c5d124cfc00e2fd4f9e76bbfa4394ba3, type: 3}
+      propertyPath: 'ingredients.Array.data[3]'
+      value: coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099004788674874492, guid: c5d124cfc00e2fd4f9e76bbfa4394ba3, type: 3}
+      propertyPath: 'ingredients.Array.data[4]'
+      value: coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 9099004788674874492, guid: c5d124cfc00e2fd4f9e76bbfa4394ba3, type: 3}
+      propertyPath: 'ingredients.Array.data[5]'
+      value: coffee
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

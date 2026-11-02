@@ -55,7 +55,8 @@ MonoBehaviour:
   interp_time: 1
   droppable: 1
   ingredient_name: light_grounds
-  addable_to_coffee: 1
+  addable_to_coffee: 0
+  kill_on_add: 1
 --- !u!212 &4753477111145844987
 SpriteRenderer:
   serializedVersion: 3
