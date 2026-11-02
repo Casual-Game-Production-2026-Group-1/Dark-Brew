@@ -46,6 +46,7 @@ public class Coffee : Draggable
         else
         {
             print(" - Submitted coffee: Wrong order!");
+            ScoreManager.Instance.subCoffee();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
