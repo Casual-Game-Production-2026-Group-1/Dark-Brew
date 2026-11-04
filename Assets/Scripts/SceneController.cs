@@ -66,6 +66,7 @@ public class SceneController : MonoBehaviour
             if (customer_patience >= customers[0].max_patience && !lose_state)
             {
                 lose_state = true;
+                // TODO: Replace with fail state code
                 print("!! You lost the game! !!");
             }
 
