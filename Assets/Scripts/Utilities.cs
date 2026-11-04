@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public static class Utilities
@@ -39,5 +40,21 @@ public static class Utilities
             }
         }
         return false;
+    }
+
+    public static void PlayOneShotRandomPitch(AudioSource audioSource, AudioClip audioClip, float pitchVariance = 0.15f, bool compound = false)
+    {
+        float pitch = 1.0f;
+
+        // Compound makes it base the new random pitch off of the current pitch
+        if (compound)
+        {
+            pitch = audioSource.pitch;
+        }
+        
+        float randomPitch = Random.Range(pitch - pitchVariance, pitch + pitchVariance);
+
+        audioSource.pitch = randomPitch;
+        audioSource.PlayOneShot(audioClip);
     }
 }

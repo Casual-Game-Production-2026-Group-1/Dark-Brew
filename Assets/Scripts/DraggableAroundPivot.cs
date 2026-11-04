@@ -52,7 +52,7 @@ public class DraggableAroundPivot : TouchManager
             grabbed = false;
         }
         // Start following when the player holds the object
-        if (context.performed && IsNearVector2(new Vector2(touch_point.x, touch_point.y), new Vector2(col.bounds.center.x, col.bounds.center.y), col.radius / 2.0f))
+        if (context.performed && IsNearVector2(new Vector2(touch_point.x, touch_point.y), new Vector2(col.bounds.center.x, col.bounds.center.y), col.radius / buffer))
         {
             grabbed = true;
         }
@@ -61,7 +61,7 @@ public class DraggableAroundPivot : TouchManager
     protected override void TouchMoved(InputAction.CallbackContext context)
     {
         base.TouchMoved(context);
-        if (context.performed && !IsNearVector2(new Vector2(touch_point.x, touch_point.y), new Vector2(col.bounds.center.x, col.bounds.center.y), col.radius / 2.0f))
+        if (context.performed && !IsNearVector2(new Vector2(touch_point.x, touch_point.y), new Vector2(col.bounds.center.x, col.bounds.center.y), col.radius / buffer))
         {
             elapsed_time = 0;
             grabbed = false;

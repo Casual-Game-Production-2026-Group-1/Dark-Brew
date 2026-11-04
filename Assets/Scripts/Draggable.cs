@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Reflection;
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.InputSystem;
 using static Utilities;
 
@@ -20,6 +15,10 @@ public class Draggable : TouchManager
     public float interp_time = 1.0f;
     // Should this object do something once it's dropped
     public bool droppable = false;
+    public AudioSource audio_source;
+    public AudioClip grab_sound;
+    public AudioClip drop_sound;
+
     UnityEngine.Vector3 init_pos;
     UnityEngine.Vector3 init_local_pos;
     protected bool grabbed = false;
@@ -100,12 +99,14 @@ public class Draggable : TouchManager
                     }
                 }
             }
+            PlayOneShotRandomPitch(audio_source, drop_sound);
             grabbed = false;
         }
         // Start following when the player holds the object
         if (context.performed && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
         {
             grabbed = true;
+            PlayOneShotRandomPitch(audio_source, grab_sound);
         }
     }
 

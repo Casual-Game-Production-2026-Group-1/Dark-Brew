@@ -60,6 +60,7 @@ public class Grinder : Appliance
             roast_type = input_name;
             grinding = true;
             grinder_handle.can_grind = true;
+            print("Ready to grind");
         }
 
         base.DropActivate(input_name, activator);
