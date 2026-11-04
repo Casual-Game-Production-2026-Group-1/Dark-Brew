@@ -8,10 +8,14 @@ public class SceneController : MonoBehaviour
     public Image morning_bg;
     public Image afternoon_bg;
     public Image night_bg;
+    public Text patience_counter;
 
     private int current_customer = 0;
     private int afternoon_customer;
     private int night_customer;
+    private float customer_patience = 0.0f;
+    private bool lose_state = false;
+    private float patience_modifier;
 
     void Start()
     {
@@ -41,7 +45,33 @@ public class SceneController : MonoBehaviour
     // Update is called once per frames
     void Update()
     {
+        if (!lose_state)
+        {
+            // Customer Patience
+            if (customer_patience < customers[0].max_patience)
+            {
+                if (customers[0].isActiveAndEnabled)
+                {
+                    patience_modifier = customers[0].attention_modifier;
+                }   
+                else
+                {
+                    patience_modifier = customers[0].ignore_modifier;
+                }
 
+                customer_patience += patience_modifier * Time.deltaTime;
+                customer_patience = Mathf.Clamp(customer_patience, 0.0f, customers[0].max_patience);
+            }
+
+            if (customer_patience >= customers[0].max_patience && !lose_state)
+            {
+                lose_state = true;
+                print("!! You lost the game! !!");
+            }
+
+            // Placeholder text
+            patience_counter.text = Mathf.RoundToInt(customer_patience).ToString() + " / " + customers[0].max_patience.ToString();
+        }
     }
 
     public void NextCustomer()
@@ -56,6 +86,9 @@ public class SceneController : MonoBehaviour
             customers[0].gameObject.SetActive(true);
 
             current_customer += 1;
+
+            // Update the patience
+            customer_patience = 0.0f;
 
             // Change the background based on the current customer
             if (current_customer == afternoon_customer)

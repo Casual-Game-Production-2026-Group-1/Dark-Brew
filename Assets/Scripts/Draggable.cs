@@ -100,6 +100,7 @@ public class Draggable : TouchManager
                         this.transform.localPosition = init_local_pos;
                     }
                 }
+                // Play drop sound
                 if (audio_source != null && drop_sound != null)
                 {
                     PlayOneShotRandomPitch(audio_source, drop_sound);
@@ -111,6 +112,7 @@ public class Draggable : TouchManager
         if (context.performed && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
         {
             grabbed = true;
+            // Play grab sound
             if (audio_source != null && grab_sound != null)
             {
                 PlayOneShotRandomPitch(audio_source, grab_sound);
