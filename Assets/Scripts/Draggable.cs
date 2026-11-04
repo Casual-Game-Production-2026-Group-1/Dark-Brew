@@ -15,7 +15,7 @@ public class Draggable : TouchManager
     public float interp_time = 1.0f;
     // Should this object do something once it's dropped
     public bool droppable = false;
-    public AudioSource audio_source;
+    private AudioSource audio_source;
     public AudioClip grab_sound;
     public AudioClip drop_sound;
 
@@ -37,6 +37,8 @@ public class Draggable : TouchManager
         lerp_local_pos = init_local_pos;
 
         init_order = this.GetComponent<SpriteRenderer>().sortingOrder;
+
+        audio_source = Object.FindAnyObjectByType<AudioSource>();
     }
 
     // Update is called once per frame
@@ -98,15 +100,21 @@ public class Draggable : TouchManager
                         this.transform.localPosition = init_local_pos;
                     }
                 }
+                if (audio_source != null && drop_sound != null)
+                {
+                    PlayOneShotRandomPitch(audio_source, drop_sound);
+                }
             }
-            PlayOneShotRandomPitch(audio_source, drop_sound);
             grabbed = false;
         }
         // Start following when the player holds the object
         if (context.performed && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
         {
             grabbed = true;
-            PlayOneShotRandomPitch(audio_source, grab_sound);
+            if (audio_source != null && grab_sound != null)
+            {
+                PlayOneShotRandomPitch(audio_source, grab_sound);
+            }
         }
     }
 
