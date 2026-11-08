@@ -1,5 +1,3 @@
-VAR player_score = 0
-
 Hi Welcome to Dark Brew.
 * What can I get ya?
 -
@@ -21,11 +19,9 @@ Hi Welcome to Dark Brew.
 -> Phobo1_1
 
 * That's ok, sometimes you just have to breath and take it slow.
-~ player_score += 1
 -> Phobo1_2
 
 * Wow that must suck for you.
-~ player_score -= 1
 -> Phobo1_3
 
 
@@ -37,7 +33,6 @@ Hi Welcome to Dark Brew.
 === Phobo1_2 ===
 (Phobo) Yeah I know
 (Phobo) I've been doing meditation to take it slow. 
--> Phobo2
 -> END
 
 === Phobo1_3 ===
@@ -46,9 +41,10 @@ This is the content of the knot.
 
 
 === Phobo2 ===
-(???) How do you handle the stress?
+(Phobo) How do you handle the stress?
 
 * This is a choice that can only be chosen once
+
 
 
 -> END

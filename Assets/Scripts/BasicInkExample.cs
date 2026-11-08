@@ -58,19 +58,17 @@ public class BasicInkExample : MonoBehaviour
 			}
 		}
 		// If we've read all the content and there's no choices, the story is finished!
-		
+		/*
 		else
 		{
-			ScoreManager.Instance.getDialogue((int)story.variablesState["player_score"]);
-            /*
 			Button choice = CreateChoiceView("End of story.\nRestart?");
 			choice.onClick.AddListener(delegate
 			{
 				StartStory();
 			});
-			*/
 		}
-        }
+		*/
+	}
 
 	// When we click the choice button, tell the story to choose that choice!
 	void OnClickChoiceButton(Choice choice)
