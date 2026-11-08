@@ -1,9 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
-using System.Reflection;
 using UnityEngine;
-using UnityEngine.Rendering;
 using static Utilities;
 
 public class Appliance : MonoBehaviour
@@ -14,17 +10,34 @@ public class Appliance : MonoBehaviour
     public float buffer = 1.0f;
     // Set the zdepth
     public float zdepth = 1.0f;
+    private AudioSource audio_source;
+    public AudioClip drop_activate_sound;
+    public AudioClip tap_activate_sound;
+
+    void Start()
+    {
+        audio_source = Object.FindAnyObjectByType<AudioSource>();
+    }
 
     public virtual void DropActivate(string input_name, GameObject activator)
     {
         // Override this with appliance specific code
         print("  --" + name + " drop activated!");
+        if (audio_source != null && drop_activate_sound != null)
+        {
+            PlayOneShotRandomPitch(audio_source, drop_activate_sound);
+        }
     }
     public virtual void TapActivate()
     {
         // Override this with appliance specific code
         print("  --" + name + " tap activated!");
+        if (audio_source != null && tap_activate_sound != null)
+        {
+            PlayOneShotRandomPitch(audio_source, tap_activate_sound);
+        }
     }
+
     void Update()
     {
         // If the player is touching the screen

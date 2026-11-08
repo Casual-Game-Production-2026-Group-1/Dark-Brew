@@ -54,9 +54,13 @@ MonoBehaviour:
   interpolate: 1
   interp_time: 1
   droppable: 1
+  grab_sound: {fileID: 8300000, guid: adb0ca8baaf9d2d41b012757329526ab, type: 3}
+  drop_sound: {fileID: 8300000, guid: e406fc29706a2e44281c56dace20d6e1, type: 3}
   ingredients: []
   ingredient_name: coffee
-  character_controller: {fileID: 0}
+  scene_controller: {fileID: 0}
+  submit_correct_cound: {fileID: 8300000, guid: 5432b9ca982fc9a4583875d01d9e739b, type: 3}
+  submit_incorrect_cound: {fileID: 8300000, guid: 2f66737b3c0f99c48a5b21f27ac78f56, type: 3}
 --- !u!212 &4753477111145844987
 SpriteRenderer:
   serializedVersion: 3

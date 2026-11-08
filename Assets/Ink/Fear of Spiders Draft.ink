@@ -1,5 +1,3 @@
-VAR player_score = 0
-
 (You) Hi Welcome to Dark Brew
 * What can I get ya?
 -
@@ -11,10 +9,8 @@ VAR player_score = 0
 -
 (???) I got to get back to work, and go pick up the kids, and take them to a dance recital, and then back home, and much much more.
 * Sounds like an eventful day.
-~ player_score += 1
 -> Ari1_1
 * Dang, being a parent must suck.
-~ player_score -= 1
 -> Ari1_2
 * Why don't you have your wife help u?
 -> Ari1_3
@@ -81,14 +77,12 @@ It is, especially when I do this everyday.
 (Ari) What would you do if you were in my shoes?
 
 * I would do the same thing.
-~ player_score += 1
 -> Ari3_1
 
 * I don't think I could handle it.
 -> Ari3_2
 
 * I would go get milk and not come back.
-~ player_score -= 1
 -> Ari3_3
 
 === Ari3_1 ===
@@ -127,6 +121,7 @@ It is, especially when I do this everyday.
 -
 (Ari) Let me get my coffees please, gotta get the kids now from school.
 * Yes sir, here you go.
+
 
 -> END
 
