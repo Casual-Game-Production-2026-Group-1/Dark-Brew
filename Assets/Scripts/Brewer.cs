@@ -16,14 +16,30 @@ public class Brewer : Appliance
     string roast_type;
 
     public override void DropActivate(string input_name, GameObject activator)
-    {   
+    {
         // Get the ingredient dropped onto this (only accepts beans)
         Ingredient activating_ingredient = activator.GetComponent<Ingredient>();
         // Start brewing if ingredient is valid
         if (!brewing && activating_ingredient != null)
         {
             brewer_gauge.SetProgress(100.0f, 1.5f);
-            roast_type = input_name;
+            // Set roast type
+            if (input_name == "light_grounds")
+            {
+                roast_type = "light_roast";
+            }
+            else if (input_name == "medium_grounds")
+            {
+                roast_type = "medium_roast";
+            }
+            else if (input_name == "dark_grounds")
+            {
+                roast_type = "dark_roast";
+            }
+            else
+            {
+                roast_type = input_name;
+            }
             brewing = true;
         }
         // Get the coffee dropped onto this
@@ -61,7 +77,7 @@ public class Brewer : Appliance
 
             brewing = false;
         }
-        
+
         base.DropActivate(input_name, activator);
     }
 }

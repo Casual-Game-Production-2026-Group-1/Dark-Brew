@@ -5,6 +5,7 @@ public class Ingredient : Draggable
 {
     public string ingredient_name = "[Ingredient name]";
     public bool addable_to_coffee = true;
+    public bool kill_on_add = false;
     bool overlapping = false;
     GameObject overlapping_object;
     protected override void Dropped()
@@ -17,12 +18,20 @@ public class Ingredient : Draggable
             if (overlapping_appliance != null && overlapping_appliance.ingredients.Contains(ingredient_name))
             {
                 overlapping_appliance.DropActivate(ingredient_name, this.gameObject);
+                if (kill_on_add)
+                {
+                    Destroy(gameObject);
+                }
             }
             // If we're overlapping a coffee and the ingredient isn't already added, add it
             Coffee overlapping_coffee = overlapping_object.GetComponent<Coffee>();
             if (addable_to_coffee && overlapping_coffee != null && !overlapping_coffee.ingredients.Contains(ingredient_name))
             {
                 overlapping_coffee.ingredients.Add(ingredient_name);
+                if (kill_on_add)
+                {
+                    Destroy(gameObject);
+                }
             }
         }
         print(ingredient_name + " dropped!");
