@@ -1,3 +1,5 @@
+VAR player_score = 0
+
 (You) Hi, Welcome to Dark Brew
 * What can I get ya?
 -
@@ -22,8 +24,10 @@ What would you do if I came to you?
 * I would be scared as shit
 -> Than1_1
 * I would accept it as I cannot control what happens
+~ player_score += 1
 -> Than1_2
 * I would start beating you with my baseball bat
+~ player_score -= 1
 -> Than1_3
 -
 
@@ -66,10 +70,12 @@ What would you do if I came to you?
 (???) I help them to the afterlife.
 
 * Oh cool, so like the grim reaper?
+~ player_score += 1
 -> Than2_1
 * Thats cool, must have some interesting stories.
 -> Than2_2
 * Way to bring down the mood.
+~ player_score -= 1
 -> Than2_3
 -> END
 
@@ -120,8 +126,10 @@ What would you do if I came to you?
 -
 (Than) I do but I cannot.
 * Thats unfortunate, Im sorry for you
+~ player_score += 1
 -> Than3_1
 * Sucks to be you
+~ player_score -= 1
 -> Than3_2
 * Why don't you just take a day off?
 -> Than3_3
