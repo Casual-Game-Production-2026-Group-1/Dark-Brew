@@ -8,6 +8,8 @@ public class Ingredient : Draggable
     public bool kill_on_add = false;
     bool overlapping = false;
     GameObject overlapping_object;
+    public AudioClip add_to_coffee_sound;
+    public AudioClip add_to_appliance_sound;
     protected override void Dropped()
     {
         if (overlapping)
@@ -18,6 +20,10 @@ public class Ingredient : Draggable
             if (overlapping_appliance != null && overlapping_appliance.ingredients.Contains(ingredient_name))
             {
                 overlapping_appliance.DropActivate(ingredient_name, this.gameObject);
+                if (audio_source != null && add_to_appliance_sound != null)
+                {
+                    PlayOneShotRandomPitch(audio_source, add_to_appliance_sound);
+                }
                 if (kill_on_add)
                 {
                     Destroy(gameObject);
@@ -28,6 +34,10 @@ public class Ingredient : Draggable
             if (addable_to_coffee && overlapping_coffee != null && !overlapping_coffee.ingredients.Contains(ingredient_name))
             {
                 overlapping_coffee.ingredients.Add(ingredient_name);
+                if (audio_source != null && add_to_coffee_sound != null)
+                {
+                    PlayOneShotRandomPitch(audio_source, add_to_coffee_sound);
+                }
                 if (kill_on_add)
                 {
                     Destroy(gameObject);

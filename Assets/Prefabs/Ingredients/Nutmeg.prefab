@@ -54,8 +54,12 @@ MonoBehaviour:
   interpolate: 1
   interp_time: 1
   droppable: 1
+  grab_sound: {fileID: 8300000, guid: a8d8f1d2005305247a1f7e730e028337, type: 3}
+  drop_sound: {fileID: 8300000, guid: 5080969212697bd4f88ed543ffd5041c, type: 3}
   ingredient_name: nutmeg
   addable_to_coffee: 1
+  kill_on_add: 0
+  add_to_coffee_sound: {fileID: 8300000, guid: d7d6a3614f8d0c0428ab4df745197658, type: 3}
 --- !u!212 &4753477111145844987
 SpriteRenderer:
   serializedVersion: 3

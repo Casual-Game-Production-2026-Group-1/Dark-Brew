@@ -9,6 +9,7 @@ public class SceneController : MonoBehaviour
     public Image afternoon_bg;
     public Image night_bg;
     public Text patience_counter;
+    public Text order_ticket;
 
     private int current_customer = 0;
     private int afternoon_customer;
@@ -32,9 +33,11 @@ public class SceneController : MonoBehaviour
             }
         }
 
-        morning_bg.CrossFadeAlpha(255.0f, 5.0f, false);
-        afternoon_bg.CrossFadeAlpha(0.0f, 5.0f, false);
-        night_bg.CrossFadeAlpha(0.0f, 5.0f, false);
+        FormatTicket();
+
+        //morning_bg.CrossFadeAlpha(255.0f, 5.0f, false);
+        //afternoon_bg.CrossFadeAlpha(0.0f, 5.0f, false);
+        //night_bg.CrossFadeAlpha(0.0f, 5.0f, false);
 
         int bg_change = Mathf.CeilToInt(customers.Count / 3);
 
@@ -53,7 +56,7 @@ public class SceneController : MonoBehaviour
                 if (customers[0].isActiveAndEnabled)
                 {
                     patience_modifier = customers[0].attention_modifier;
-                }   
+                }
                 else
                 {
                     patience_modifier = customers[0].ignore_modifier;
@@ -91,16 +94,19 @@ public class SceneController : MonoBehaviour
             // Update the patience
             customer_patience = 0.0f;
 
+            // Update ticket
+            FormatTicket();
+
             // Change the background based on the current customer
             if (current_customer == afternoon_customer)
             {
                 morning_bg.CrossFadeAlpha(0.0f, 5.0f, false);
-                afternoon_bg.CrossFadeAlpha(255.0f, 5.0f, false);
+                //afternoon_bg.CrossFadeAlpha(255.0f, 5.0f, false);
             }
             if (current_customer == night_customer)
             {
                 afternoon_bg.CrossFadeAlpha(0.0f, 5.0f, false);
-                night_bg.CrossFadeAlpha(255.0f, 5.0f, false);
+                //night_bg.CrossFadeAlpha(255.0f, 5.0f, false);
             }
         }
         else
@@ -108,5 +114,10 @@ public class SceneController : MonoBehaviour
             // TODO: Replace with end of day code
             print("End of day");
         }
+    }
+
+    public void FormatTicket()
+    {
+        order_ticket.text = string.Join(", \n", customers[0].order);
     }
 }

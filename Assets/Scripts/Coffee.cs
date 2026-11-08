@@ -13,6 +13,8 @@ public class Coffee : Draggable
     public List<string> ingredients = new List<string>();
     public string ingredient_name = "coffee";
     public SceneController scene_controller;
+    public AudioClip submit_correct_cound;
+    public AudioClip submit_incorrect_cound;
     bool overlapping = false;
     GameObject overlapping_object;
     protected override void Dropped()
@@ -41,11 +43,19 @@ public class Coffee : Draggable
         if (string.Join(", ", scene_controller.customers[0].order) == string.Join(", ", ingredients))
         {
             print(" - Submitted coffee: Correct order!");
+            if (audio_source != null && submit_correct_cound != null)
+            {
+                PlayOneShotRandomPitch(audio_source, submit_correct_cound);
+            }
             scene_controller.NextCustomer();
         }
         else
         {
             print(" - Submitted coffee: Wrong order!");
+            if (audio_source != null && submit_incorrect_cound != null)
+            {
+                PlayOneShotRandomPitch(audio_source, submit_incorrect_cound);
+            }
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         ingredients.Clear();

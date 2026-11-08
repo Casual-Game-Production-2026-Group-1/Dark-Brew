@@ -17,8 +17,6 @@ public class Garbage : Appliance
         {
             activating_coffee.ingredients.Clear();
             print("Trashed coffee");
-           
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         base.DropActivate(input_name, activator);
     }

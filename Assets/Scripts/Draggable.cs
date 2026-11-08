@@ -15,7 +15,7 @@ public class Draggable : TouchManager
     public float interp_time = 1.0f;
     // Should this object do something once it's dropped
     public bool droppable = false;
-    private AudioSource audio_source;
+    protected AudioSource audio_source;
     public AudioClip grab_sound;
     public AudioClip drop_sound;
 
