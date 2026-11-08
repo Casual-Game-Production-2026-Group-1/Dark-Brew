@@ -52,9 +52,6 @@ MonoBehaviour:
   - light_grounds
   - medium_grounds
   - dark_grounds
-  - light_roast
-  - medium_roast
-  - dark_roast
   - coffee
   buffer: 100
   zdepth: 1

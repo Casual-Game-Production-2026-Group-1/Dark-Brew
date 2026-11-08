@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Reflection;
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.InputSystem;
 using static Utilities;
 
@@ -20,6 +15,10 @@ public class Draggable : TouchManager
     public float interp_time = 1.0f;
     // Should this object do something once it's dropped
     public bool droppable = false;
+    protected AudioSource audio_source;
+    public AudioClip grab_sound;
+    public AudioClip drop_sound;
+
     UnityEngine.Vector3 init_pos;
     UnityEngine.Vector3 init_local_pos;
     protected bool grabbed = false;
@@ -38,10 +37,12 @@ public class Draggable : TouchManager
         lerp_local_pos = init_local_pos;
 
         init_order = this.GetComponent<SpriteRenderer>().sortingOrder;
+
+        audio_source = Object.FindAnyObjectByType<AudioSource>();
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         // If the player is grabbing the object
         if (grabbed)
@@ -99,6 +100,11 @@ public class Draggable : TouchManager
                         this.transform.localPosition = init_local_pos;
                     }
                 }
+                // Play drop sound
+                if (audio_source != null && drop_sound != null)
+                {
+                    PlayOneShotRandomPitch(audio_source, drop_sound);
+                }
             }
             grabbed = false;
         }
@@ -106,6 +112,11 @@ public class Draggable : TouchManager
         if (context.performed && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
         {
             grabbed = true;
+            // Play grab sound
+            if (audio_source != null && grab_sound != null)
+            {
+                PlayOneShotRandomPitch(audio_source, grab_sound);
+            }
         }
     }
 

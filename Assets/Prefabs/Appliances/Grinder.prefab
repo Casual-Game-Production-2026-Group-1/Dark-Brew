@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2871186353184584973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8156740287284262888}
+  m_Layer: 7
+  m_Name: GroundsSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8156740287284262888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2871186353184584973}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.099, y: -1.205, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4139355602083656920}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6993242830387513612
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +42,7 @@ GameObject:
   - component: {fileID: 1642544370547635874}
   - component: {fileID: 6556376799850226032}
   - component: {fileID: 7439048032317594139}
-  - component: {fileID: 784245354431391826}
+  - component: {fileID: 8596601313518670912}
   - component: {fileID: 6119412856338690594}
   m_Layer: 7
   m_Name: Handle
@@ -131,7 +162,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 11.18, y: -0.98}
   m_Radius: 2.79
---- !u!114 &784245354431391826
+--- !u!114 &8596601313518670912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,15 +171,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 6993242830387513612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ae3bce377cb48a44b4119cabdd72a6d, type: 3}
+  m_Script: {fileID: 11500000, guid: c23a19a79846da4489ecfc8fbe63ab2b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DraggableAroundPivot
+  m_EditorClassIdentifier: '::'
   buffer: 1
   zdepth: 1
   anchored: 0
   interpolate: 1
-  interp_time: 136.8
+  interp_time: 1
   droppable: 0
+  col: {fileID: 7439048032317594139}
+  can_grind: 0
+  grind_time: 0
 --- !u!114 &6119412856338690594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,6 +225,7 @@ GameObject:
   - component: {fileID: 4753477111145844987}
   - component: {fileID: 2628648781553373892}
   - component: {fileID: 6148537513893029400}
+  - component: {fileID: 3923417877667412733}
   m_Layer: 7
   m_Name: Grinder
   m_TagString: Untagged
@@ -212,6 +247,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1642544370547635874}
+  - {fileID: 8156740287284262888}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4753477111145844987
@@ -347,3 +383,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &3923417877667412733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259817329955161351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17103fed1e8ee64409927ca481a3e195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Grinder
+  ingredients:
+  - light_roast
+  - medium_roast
+  - dark_roast
+  buffer: 1
+  zdepth: 1
+  required_grind_time: 5
+  grounds_spawn: {fileID: 2871186353184584973}
+  grinder_handle: {fileID: 8596601313518670912}
+  light_grounds: {fileID: 2889804001440250170, guid: 0fece370a72f48b42b32a55539035a84, type: 3}
+  medium_grounds: {fileID: 2889804001440250170, guid: 56440e6cc1a84e4489c4b8de8f3376ff, type: 3}
+  dark_grounds: {fileID: 2889804001440250170, guid: b6af1c91dffad3e4ca0cc8c56f558b9f, type: 3}

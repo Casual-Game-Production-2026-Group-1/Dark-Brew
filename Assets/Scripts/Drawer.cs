@@ -1,4 +1,6 @@
+using NUnit.Framework.Constraints;
 using UnityEngine;
+using static Utilities;
 
 public class Drawer : MonoBehaviour
 {
@@ -8,11 +10,15 @@ public class Drawer : MonoBehaviour
     private Vector3 init_pos;
     private Vector3 lerp_pos;
     private bool open = false;
+    protected AudioSource audio_source;
+    public AudioClip open_sound;
+    public AudioClip close_sound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         init_pos = this.transform.localPosition;
         lerp_pos = init_pos;
+        audio_source = Object.FindAnyObjectByType<AudioSource>();
     }
 
     void Update()
@@ -27,19 +33,49 @@ public class Drawer : MonoBehaviour
         }
     }
 
+    public void Toggle()
+    {
+        // If open, close the drawer
+        if (open)
+        {
+            Close();
+        }
+        // Open the drawer
+        else
+        {
+            Open();
+        }
+    }
+
     public void Open()
+    {
+        if (!open)
+        {
+            elapsed_time = 0;
+            lerp_pos = target_pos;
+
+            if (audio_source != null && open_sound != null)
+            {
+                PlayOneShotRandomPitch(audio_source, open_sound, 0.3f);
+            }
+
+            open = true;
+        }
+    }
+
+    public void Close()
     {
         if (open)
         {
             elapsed_time = 0;
             lerp_pos = init_pos;
+
+            if (audio_source != null && close_sound != null)
+            {
+                PlayOneShotRandomPitch(audio_source, close_sound);
+            }
+
             open = false;
-        }
-        else
-        {
-            elapsed_time = 0;
-            lerp_pos = target_pos;
-            open = true;
         }
     }
 }

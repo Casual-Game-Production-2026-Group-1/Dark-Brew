@@ -51,6 +51,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Drawer
   interp_time: 1
   target_pos: {x: 0, y: 0, z: 0}
+  open_sound: {fileID: 8300000, guid: 6682b0eefdca14c4e972224e2dc95db7, type: 3}
+  close_sound: {fileID: 8300000, guid: b0321eae8627a9a4d9a1cfdd87b8acc9, type: 3}
 --- !u!1001 &7824704289132816736
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,9 +10,17 @@ public class ScoreManager : MonoBehaviour
     public int coffeeScore = 0;
     public int dialogueScore = 0;
     public int stars = 0;
+    public SceneController sceneCon;
+    int customerCount;
 
     void Awake()
     {
+        if (sceneCon != null)
+        {
+            customerCount = sceneCon.customers.Count;
+            Debug.Log(customerCount + " customers.");
+        }
+        
         if (Instance == null)
         {
             Instance = this;
@@ -26,27 +34,31 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (coffeeScore == 1)
+        if (coffeeScore / customerCount == 1)
         {
             stars = 1;
         }
-        else if (dialogueScore == 1)
+        else if (dialogueScore / customerCount == 1)
         {
             stars = 1;
         }
-        if (coffeeScore == 1 && dialogueScore == 1)
+        if (coffeeScore / customerCount == 1 && dialogueScore / customerCount == 1)
         {
             stars = 3;
         }
         //temporary failstate debug
-        if (coffeeScore == -1 && dialogueScore == -1)
+        if (coffeeScore < 0 && dialogueScore < 0)
         {
             Debug.Log("failstate");
         }
         //temporary coffee score subtraction debug
         if (Input.GetKeyDown(KeyCode.C))
         {
-            subCoffee();
+            addCoffee();
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            addDialogue();
         }
     }
 
@@ -82,4 +94,5 @@ public class ScoreManager : MonoBehaviour
         }
     }
     //TODO: have score calculate based on number of characters per day
+
 }
