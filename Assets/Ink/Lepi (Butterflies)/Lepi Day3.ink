@@ -85,29 +85,58 @@ VAR player_score = 0
 (Lepi) I guess I'm just a little worried on how to teach.
 
 * You got this.
+~ player_score +=1
 -> Lepi4_3
 * You'll do fine
 -> Lepi4_2
 * Everyone hates teachers, so just don't be mean.
+~ player_score -=1
 -> Lepi4_1
 
 
 
 -> END
 === Lepi4_3 ===
-This is the content of the knot.
+(Lepi) Thanks.
+(Lepi) I hope my students approve.
+* I think they will.
+-
+-> Lepi5
 -> END
 
 
 === Lepi4_2 ===
-This is the content of the knot.
+(Lepi) Yes probably.
+(Lepi) It's mostly nerves.
+* I bet they are nervous too.
+-
+(Lepi) True haha.
+-> Lepi5
 -> END
 
 === Lepi4_1 ===
-This is the content of the knot.
+(Lepi) Everyone does?
+(Lepi) Oh my. I must go home and practice.
+* My bad, It was just a joke.
+-
+(Lepi) Now I must prepare.
+(Lepi) May I have my drink?
+* Yes you may, here you are.
 -> END
 
 
+=== Lepi5 ===
+(Lepi) I must go, but thank you.
+* You are most welcome.
+-
+* Have fun in class.
+-
+(Lepi) I will. Perhaps you can join it haha.
+* Maybe on my day off haha.
+-
+(Lepi) Haha. Is my drink done?
+* Yes, here you are miss.
+-> END
 
 
 

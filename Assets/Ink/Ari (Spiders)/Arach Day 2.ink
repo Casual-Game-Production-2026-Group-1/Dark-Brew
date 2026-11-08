@@ -1,3 +1,4 @@
+VAR player_score = 0
 (You) Hi Welcome to Dark Brew
 
 * What can I get you today, Ari?
@@ -42,8 +43,10 @@
 * Oh neat.
 -> Ari2_1
 * You should follow your passion.
+~ player_score +=1
 -> Ari2_2
 * Thats kinda lame.
+~ player_score -=1
 -> Ari2_3
 
 
@@ -68,12 +71,58 @@
 
 
 === Ari3 ===
-This is the content of the knot.
+* Anything else goin on?
+-
+(Ari) I'm just a little overwhelmed with the kids.
+(Ari) It was good that I got this break.
+* I get that. Sometimes it can be too much.
+-
+(Ari) Exactly.
+(Ari) That doesn't make me a bad parent right?
+
+* Not at all.
+-> Ari3_1
+* No, that is just life.
+~ player_score +=1
+-> Ari3_2
+* A little bit.
+~ player_score -=1
+-> Ari3_3
+
+-> END
+
+=== Ari3_1 ===
+(Ari) Thank you.
+(Ari) Even though you don't have kids haha.
+* Haha, true. My kids are work.
+-> Ari4
+-> END
+
+=== Ari3_2 ===
+(Ari) Yes it is.
+(Ari) It can be too much with anything.
+* Yes. Especially something everyday.
+-> Ari4
+-> END
+
+=== Ari3_3 ===
+(Ari) It does?
+(Ari) I think I'm gonna leave.
+(Ari) Can I get my drink?
+* Yes maam, here you go.
 -> END
 
 
 
-
+=== Ari4 ===
+(Ari) I have to get back.
+(Ari) I have some commissions to make.
+* Nice that sounds fun.
+-
+(Ari) It is.
+(Ari) See you next time?
+* Heres your drink. And sure I'll be working.
+-> END
 
 
 
