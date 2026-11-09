@@ -6,22 +6,22 @@ VAR player_score = 0
 
 * Sure, coming right up
 -
-* What is your name?
+* Can I get a name for the order?
 -
-(Lepi) My name is Lepidopterophobia, but you may call me Lepi.
+(Lepi) My name is Lepidopterophobia, but you may just write Lepi.
 
 * Nice to meet you Lepi, how's your day going?
 ~ player_score +=1
 -> Main1
 * Lepi, what a unique name.
 -> Name3
-
 * That's a weird name
 ~ player_score -=1
 -> NameMean
 === NameMean ===
-(Lepi) Oh it is then. May I get my beverage please.
-* Yes you can, it is almost done.
+(Lepi) Oh it is then.
+* I'm sorry. I did not mean to offend you.
+-> Main1
 -> END
 
 === Main1 ===
@@ -38,9 +38,7 @@ VAR player_score = 0
 -> END
 === Mean1===
 (Lepi) What choice words, just give me my coffee and let me on my way.
-* Sure, whatever ->END
-* On it, sorry about my joke, it was in poor taste ->END
-* Yes maam
+* On it, sorry about my joke, it was in poor taste
 -> END
 
 === Nice1 ===
@@ -54,7 +52,7 @@ VAR player_score = 0
 (Lepi) Yes I know, thank you for allowing an aging soul to vent.
 -
 * Your welcome, happy to help.
--> Main2
+-> Name3
 
 
 === Main2 ===
