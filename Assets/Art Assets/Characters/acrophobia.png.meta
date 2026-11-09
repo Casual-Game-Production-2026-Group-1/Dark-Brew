@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 69570fa2391cf7e48b8f9294ec28ce05
+guid: 687da52dae4474a4fafa4c4aae0c4769
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3172740677612070339
-    second: acrophobia_0
+      213: -6814351352285659212
+    second: acrophobia 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: acrophobia_0
+      name: acrophobia 1_0
       rect:
         serializedVersion: 2
-        x: 483
-        y: 279
-        width: 424
-        height: 1438
+        x: 498
+        y: 285
+        width: 404
+        height: 1427
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3a1082e92928f3d0800000000000000
-      internalID: -3172740677612070339
+      spriteID: 4bf7f409c8f8e61a0800000000000000
+      internalID: -6814351352285659212
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      acrophobia_0: -3172740677612070339
+      acrophobia 1_0: -6814351352285659212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

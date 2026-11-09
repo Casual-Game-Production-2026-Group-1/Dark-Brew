@@ -2,7 +2,7 @@
 * What can I get ya?
 -
 (???) Can I get 4 Espressos please?
-* Yes sir, coming right up.
+* Yes miss, coming right up.
 -
 (???) Thank you, Im in a bit of a hurry.
 * Why's that?
@@ -12,7 +12,7 @@
 -> Ari1_1
 * Dang, being a parent must suck.
 -> Ari1_2
-* Why don't you have your wife help u?
+* Why doesn't you have your husband help u?
 -> Ari1_3
 
 
@@ -35,8 +35,8 @@ It is, especially when I do this everyday.
 -> END
 
 === Ari1_3 ===
-(???) She can't, shes to busy at home.
-(???) And she does not want to talk to me rn.
+(???) He can't, He's to busy at home.
+(???) And He does not want to talk to me rn.
 * Why not?
 -
 (???) Its a spider thing, same thing happened to my cousin Joey.
