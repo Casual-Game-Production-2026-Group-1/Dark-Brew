@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
-  m_LocalScale: {x: 30.000002, y: 30.000002, z: 30.000002}
+  m_LocalScale: {x: 118.6, y: 118.6, z: 118.6}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -60,6 +60,7 @@ MonoBehaviour:
   addable_to_coffee: 1
   kill_on_add: 0
   add_to_coffee_sound: {fileID: 8300000, guid: d7d6a3614f8d0c0428ab4df745197658, type: 3}
+  add_to_appliance_sound: {fileID: 0}
 --- !u!212 &4753477111145844987
 SpriteRenderer:
   serializedVersion: 3
@@ -109,7 +110,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 73b4c3b0bd983354fbec5c458dacb44d, type: 3}
+  m_Sprite: {fileID: -3410414333543221475, guid: 85b6e4c751b1be747b9023a65357e81d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -154,17 +155,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1.11}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 25, y: 25}
+    oldSize: {x: 4.94, y: 4.37}
     newSize: {x: 25, y: 25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 19.9, y: 19.7}
+  m_Size: {x: 5.1, y: 4.4}
   m_EdgeRadius: 0
 --- !u!50 &1849383587424482767
 Rigidbody2D:
