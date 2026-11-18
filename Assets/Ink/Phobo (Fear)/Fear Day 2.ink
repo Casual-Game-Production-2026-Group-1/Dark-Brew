@@ -13,26 +13,56 @@ VAR player_score = 0
 * Oh nice, what are you planning to do?
 -
 (Phobo) I plan on feeding the ducks at the pond.
-* Nice, wish I could join.
+* What do you do for a living?
+-
+(Phobo) Oh I'm an accountant
+
+* That sounds interesting.
+~ player_score += 1
 -> Phobo2_1
-* That's weird.
+* Neato
 -> Phobo2_2
-* You suck
+* I would hate to have that job.
+~ player_score -= 1
 -> Phobo2_3
-
-
-
+-> END
 
 === Phobo2_1 ===
-This is the content of the knot.
+(Phobo) Thanks. It is a reliable job. 
+* I bet it is.
+-
+(Phobo) It allows me to relax while doing it.
+(Phobo) And not talk to people. 
+* That is good.
+-> Phobo3
 -> END
 
 === Phobo2_2 ===
-This is the content of the knot.
+(Phobo) Yeah, definitely neat.
+* What exactly do you do?
+-
+(Phobo) I do the paperwork in the back.
+* Sounds a little boring but I get it haha.
+-
+(Phobo) Yeah a little.
+(Phobo) But to me it is fun.
+* That's fair. As long as you find it fun.
+-> Phobo3
 -> END
 
 === Phobo2_3 ===
-This is the content of the knot.
+(Phobo) Oh ummm... Okay
+(Phobo) May I umm... have my drink to go please.
+* Yes sir, here you are.
+-> END
+
+
+=== Phobo3 ===
+(Phobo) Gotta run.
+(Phobo) See you tomorrow?
+* Sounds good, Heres you drink.
+-
+(Phobo) Thanks.
 -> END
 
 
