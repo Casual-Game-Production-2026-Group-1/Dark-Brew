@@ -1,0 +1,3627 @@
+fileFormatVersion: 2
+guid: e8382b184d589c940af038d93bafa0b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4495913852633655890
+    second: pngtree-coffee-grinder-png-image_20749963_0
+  - first:
+      213: 3998196121768839084
+    second: pngtree-coffee-grinder-png-image_20749963_1
+  - first:
+      213: 5404473565677972415
+    second: pngtree-coffee-grinder-png-image_20749963_2
+  - first:
+      213: -4618886279892384927
+    second: pngtree-coffee-grinder-png-image_20749963_3
+  - first:
+      213: -3816461534059232664
+    second: pngtree-coffee-grinder-png-image_20749963_4
+  - first:
+      213: 844967842790046098
+    second: pngtree-coffee-grinder-png-image_20749963_5
+  - first:
+      213: 4084298008734840428
+    second: pngtree-coffee-grinder-png-image_20749963_6
+  - first:
+      213: -5646858659005312453
+    second: pngtree-coffee-grinder-png-image_20749963_7
+  - first:
+      213: -166788558018785412
+    second: pngtree-coffee-grinder-png-image_20749963_8
+  - first:
+      213: 4518939642887424575
+    second: pngtree-coffee-grinder-png-image_20749963_9
+  - first:
+      213: 8489282168003143855
+    second: pngtree-coffee-grinder-png-image_20749963_10
+  - first:
+      213: -6964931944195941098
+    second: pngtree-coffee-grinder-png-image_20749963_11
+  - first:
+      213: 4729514157782282745
+    second: pngtree-coffee-grinder-png-image_20749963_12
+  - first:
+      213: -1602139665197059847
+    second: pngtree-coffee-grinder-png-image_20749963_13
+  - first:
+      213: 3170103320654352116
+    second: pngtree-coffee-grinder-png-image_20749963_14
+  - first:
+      213: 1998630683677307570
+    second: pngtree-coffee-grinder-png-image_20749963_15
+  - first:
+      213: -3938370411896540508
+    second: pngtree-coffee-grinder-png-image_20749963_16
+  - first:
+      213: 8681490941581827969
+    second: pngtree-coffee-grinder-png-image_20749963_17
+  - first:
+      213: -6978438847006920572
+    second: pngtree-coffee-grinder-png-image_20749963_18
+  - first:
+      213: -8062584267100919472
+    second: pngtree-coffee-grinder-png-image_20749963_19
+  - first:
+      213: 8251421132300174674
+    second: pngtree-coffee-grinder-png-image_20749963_20
+  - first:
+      213: 7863814478131462899
+    second: pngtree-coffee-grinder-png-image_20749963_21
+  - first:
+      213: 5246302432155304406
+    second: pngtree-coffee-grinder-png-image_20749963_22
+  - first:
+      213: 6872533103700632083
+    second: pngtree-coffee-grinder-png-image_20749963_23
+  - first:
+      213: 1371534744712065256
+    second: pngtree-coffee-grinder-png-image_20749963_24
+  - first:
+      213: 4148542101206913084
+    second: pngtree-coffee-grinder-png-image_20749963_25
+  - first:
+      213: -6593062327429451402
+    second: pngtree-coffee-grinder-png-image_20749963_26
+  - first:
+      213: 1638247420347981469
+    second: pngtree-coffee-grinder-png-image_20749963_27
+  - first:
+      213: -6124992212114732210
+    second: pngtree-coffee-grinder-png-image_20749963_28
+  - first:
+      213: 472154207195442013
+    second: pngtree-coffee-grinder-png-image_20749963_29
+  - first:
+      213: -5595342904644217915
+    second: pngtree-coffee-grinder-png-image_20749963_30
+  - first:
+      213: 4365246221222699591
+    second: pngtree-coffee-grinder-png-image_20749963_31
+  - first:
+      213: 3989089435316932062
+    second: pngtree-coffee-grinder-png-image_20749963_32
+  - first:
+      213: 8398885316432860070
+    second: pngtree-coffee-grinder-png-image_20749963_33
+  - first:
+      213: 4004410469462060543
+    second: pngtree-coffee-grinder-png-image_20749963_34
+  - first:
+      213: 5552376297425479933
+    second: pngtree-coffee-grinder-png-image_20749963_35
+  - first:
+      213: 1525341743657616409
+    second: pngtree-coffee-grinder-png-image_20749963_36
+  - first:
+      213: 4064549538333766860
+    second: pngtree-coffee-grinder-png-image_20749963_37
+  - first:
+      213: 2645748370759577130
+    second: pngtree-coffee-grinder-png-image_20749963_38
+  - first:
+      213: -5035078311352231441
+    second: pngtree-coffee-grinder-png-image_20749963_39
+  - first:
+      213: 2788479328558500614
+    second: pngtree-coffee-grinder-png-image_20749963_40
+  - first:
+      213: -8681788410483858489
+    second: pngtree-coffee-grinder-png-image_20749963_41
+  - first:
+      213: 7827336873467228310
+    second: pngtree-coffee-grinder-png-image_20749963_42
+  - first:
+      213: 35222024694078402
+    second: pngtree-coffee-grinder-png-image_20749963_43
+  - first:
+      213: -762376221771504223
+    second: pngtree-coffee-grinder-png-image_20749963_44
+  - first:
+      213: -7232668905678155671
+    second: pngtree-coffee-grinder-png-image_20749963_45
+  - first:
+      213: 6020151642558141131
+    second: pngtree-coffee-grinder-png-image_20749963_46
+  - first:
+      213: -2396370249820475215
+    second: pngtree-coffee-grinder-png-image_20749963_47
+  - first:
+      213: -7282120822778724950
+    second: pngtree-coffee-grinder-png-image_20749963_48
+  - first:
+      213: -7122038980487537115
+    second: pngtree-coffee-grinder-png-image_20749963_49
+  - first:
+      213: 8222150758113479632
+    second: pngtree-coffee-grinder-png-image_20749963_50
+  - first:
+      213: -2147605024584082142
+    second: pngtree-coffee-grinder-png-image_20749963_51
+  - first:
+      213: 2194455970678275040
+    second: pngtree-coffee-grinder-png-image_20749963_52
+  - first:
+      213: 1986593529388475415
+    second: pngtree-coffee-grinder-png-image_20749963_53
+  - first:
+      213: -516067187168342098
+    second: pngtree-coffee-grinder-png-image_20749963_54
+  - first:
+      213: -4807913810964178261
+    second: pngtree-coffee-grinder-png-image_20749963_55
+  - first:
+      213: 8201797184199059269
+    second: pngtree-coffee-grinder-png-image_20749963_56
+  - first:
+      213: 3761496557122839539
+    second: pngtree-coffee-grinder-png-image_20749963_57
+  - first:
+      213: -561595089318124626
+    second: pngtree-coffee-grinder-png-image_20749963_58
+  - first:
+      213: -3785577414144266597
+    second: pngtree-coffee-grinder-png-image_20749963_59
+  - first:
+      213: -8072076758959228794
+    second: pngtree-coffee-grinder-png-image_20749963_60
+  - first:
+      213: 4003218803599861378
+    second: pngtree-coffee-grinder-png-image_20749963_61
+  - first:
+      213: -4602178859681718173
+    second: pngtree-coffee-grinder-png-image_20749963_62
+  - first:
+      213: 3522058096164389456
+    second: pngtree-coffee-grinder-png-image_20749963_63
+  - first:
+      213: -215309301090587778
+    second: pngtree-coffee-grinder-png-image_20749963_64
+  - first:
+      213: 2034893328563114685
+    second: pngtree-coffee-grinder-png-image_20749963_65
+  - first:
+      213: -4154255692721233688
+    second: pngtree-coffee-grinder-png-image_20749963_66
+  - first:
+      213: 8685759598070253040
+    second: pngtree-coffee-grinder-png-image_20749963_67
+  - first:
+      213: -459788545992293507
+    second: pngtree-coffee-grinder-png-image_20749963_68
+  - first:
+      213: 2506124242374661754
+    second: pngtree-coffee-grinder-png-image_20749963_69
+  - first:
+      213: -4717472376973463557
+    second: pngtree-coffee-grinder-png-image_20749963_70
+  - first:
+      213: -2500753883883428219
+    second: pngtree-coffee-grinder-png-image_20749963_71
+  - first:
+      213: -6562027483668086644
+    second: pngtree-coffee-grinder-png-image_20749963_72
+  - first:
+      213: 2619210571618310431
+    second: pngtree-coffee-grinder-png-image_20749963_73
+  - first:
+      213: 6185336541394778529
+    second: pngtree-coffee-grinder-png-image_20749963_74
+  - first:
+      213: 5684793854631371122
+    second: pngtree-coffee-grinder-png-image_20749963_75
+  - first:
+      213: -8732048040069965389
+    second: pngtree-coffee-grinder-png-image_20749963_76
+  - first:
+      213: 7807361205232383592
+    second: pngtree-coffee-grinder-png-image_20749963_77
+  - first:
+      213: -9087969069661022971
+    second: pngtree-coffee-grinder-png-image_20749963_78
+  - first:
+      213: 858215993215463359
+    second: pngtree-coffee-grinder-png-image_20749963_79
+  - first:
+      213: -3433354764686133599
+    second: pngtree-coffee-grinder-png-image_20749963_80
+  - first:
+      213: 1340978835132018427
+    second: pngtree-coffee-grinder-png-image_20749963_81
+  - first:
+      213: 8370261621317024735
+    second: pngtree-coffee-grinder-png-image_20749963_82
+  - first:
+      213: -5856047451691000876
+    second: pngtree-coffee-grinder-png-image_20749963_83
+  - first:
+      213: -8800416892572560271
+    second: pngtree-coffee-grinder-png-image_20749963_84
+  - first:
+      213: -3597492020620126686
+    second: pngtree-coffee-grinder-png-image_20749963_85
+  - first:
+      213: 776478486577409268
+    second: pngtree-coffee-grinder-png-image_20749963_86
+  - first:
+      213: 7723418778027507445
+    second: pngtree-coffee-grinder-png-image_20749963_87
+  - first:
+      213: -1827611293025244969
+    second: pngtree-coffee-grinder-png-image_20749963_88
+  - first:
+      213: 5972860883345438859
+    second: pngtree-coffee-grinder-png-image_20749963_89
+  - first:
+      213: 7845548325412583988
+    second: pngtree-coffee-grinder-png-image_20749963_90
+  - first:
+      213: -2477998521124457639
+    second: pngtree-coffee-grinder-png-image_20749963_91
+  - first:
+      213: -5806292156650472251
+    second: pngtree-coffee-grinder-png-image_20749963_92
+  - first:
+      213: -1734300455858530926
+    second: pngtree-coffee-grinder-png-image_20749963_93
+  - first:
+      213: -1519088193658825363
+    second: pngtree-coffee-grinder-png-image_20749963_94
+  - first:
+      213: -374918884190040551
+    second: pngtree-coffee-grinder-png-image_20749963_95
+  - first:
+      213: 1845762273696401627
+    second: pngtree-coffee-grinder-png-image_20749963_96
+  - first:
+      213: -3087046143620075190
+    second: pngtree-coffee-grinder-png-image_20749963_97
+  - first:
+      213: 2248562345162579038
+    second: pngtree-coffee-grinder-png-image_20749963_98
+  - first:
+      213: 8823673938488662644
+    second: pngtree-coffee-grinder-png-image_20749963_99
+  - first:
+      213: 3889972443285179975
+    second: pngtree-coffee-grinder-png-image_20749963_100
+  - first:
+      213: -6702432395667115038
+    second: pngtree-coffee-grinder-png-image_20749963_101
+  - first:
+      213: 3624221361721783332
+    second: pngtree-coffee-grinder-png-image_20749963_102
+  - first:
+      213: -1939274210799859724
+    second: pngtree-coffee-grinder-png-image_20749963_103
+  - first:
+      213: -836101903567948724
+    second: pngtree-coffee-grinder-png-image_20749963_104
+  - first:
+      213: -6785550389749987076
+    second: pngtree-coffee-grinder-png-image_20749963_105
+  - first:
+      213: 1673343916431159705
+    second: pngtree-coffee-grinder-png-image_20749963_106
+  - first:
+      213: 1384490842316614358
+    second: pngtree-coffee-grinder-png-image_20749963_107
+  - first:
+      213: -9106005476659036420
+    second: pngtree-coffee-grinder-png-image_20749963_108
+  - first:
+      213: 656808856844336454
+    second: pngtree-coffee-grinder-png-image_20749963_109
+  - first:
+      213: 3813165227144104406
+    second: pngtree-coffee-grinder-png-image_20749963_110
+  - first:
+      213: 612452290850494981
+    second: pngtree-coffee-grinder-png-image_20749963_111
+  - first:
+      213: 4363214706918945503
+    second: pngtree-coffee-grinder-png-image_20749963_112
+  - first:
+      213: -6466881368371550925
+    second: pngtree-coffee-grinder-png-image_20749963_113
+  - first:
+      213: 2088052311904718051
+    second: pngtree-coffee-grinder-png-image_20749963_114
+  - first:
+      213: 8330913493294614376
+    second: pngtree-coffee-grinder-png-image_20749963_115
+  - first:
+      213: 2402243783882338207
+    second: pngtree-coffee-grinder-png-image_20749963_116
+  - first:
+      213: -4240529581283756167
+    second: pngtree-coffee-grinder-png-image_20749963_117
+  - first:
+      213: 2143355928068266167
+    second: pngtree-coffee-grinder-png-image_20749963_118
+  - first:
+      213: -4866554175059872093
+    second: pngtree-coffee-grinder-png-image_20749963_119
+  - first:
+      213: -5825992901890416263
+    second: pngtree-coffee-grinder-png-image_20749963_120
+  - first:
+      213: 4518733998179115335
+    second: pngtree-coffee-grinder-png-image_20749963_121
+  - first:
+      213: 4422944666991860062
+    second: pngtree-coffee-grinder-png-image_20749963_122
+  - first:
+      213: 8391721434150089055
+    second: pngtree-coffee-grinder-png-image_20749963_123
+  - first:
+      213: 7372405483419239913
+    second: pngtree-coffee-grinder-png-image_20749963_124
+  - first:
+      213: 6844935597823752009
+    second: pngtree-coffee-grinder-png-image_20749963_125
+  - first:
+      213: 2570748697608701845
+    second: pngtree-coffee-grinder-png-image_20749963_126
+  - first:
+      213: -7028227789558563948
+    second: pngtree-coffee-grinder-png-image_20749963_127
+  - first:
+      213: 8015487306544082669
+    second: pngtree-coffee-grinder-png-image_20749963_128
+  - first:
+      213: -3043208634863582890
+    second: pngtree-coffee-grinder-png-image_20749963_129
+  - first:
+      213: -2117649753920950882
+    second: pngtree-coffee-grinder-png-image_20749963_130
+  - first:
+      213: 1119007744034506238
+    second: pngtree-coffee-grinder-png-image_20749963_131
+  - first:
+      213: -4045310703985272400
+    second: pngtree-coffee-grinder-png-image_20749963_132
+  - first:
+      213: -337304610308970231
+    second: pngtree-coffee-grinder-png-image_20749963_133
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aacfe14d1b46e30800000000000000
+      internalID: 4495913852633655890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7406c70327c7730800000000000000
+      internalID: 3998196121768839084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2390
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb6938e21c800b40800000000000000
+      internalID: 5404473565677972415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 101
+        width: 1205
+        height: 2392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163c61d766b66efb0800000000000000
+      internalID: -4618886279892384927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_4
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862057b8474390bc0800000000000000
+      internalID: -3816461534059232664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_5
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299f024b6cde9bb00800000000000000
+      internalID: 844967842790046098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_6
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 2390
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66b97f36675ea830800000000000000
+      internalID: 4084298008734840428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_7
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2397
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32562dc7f352a1b0800000000000000
+      internalID: -5646858659005312453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fc0bea0b27fadf0800000000000000
+      internalID: -166788558018785412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a4cbfa9af76be30800000000000000
+      internalID: 4518939642887424575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_10
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 2308
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8a2e5572dffc570800000000000000
+      internalID: 8489282168003143855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_11
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d1e6d6c47975f90800000000000000
+      internalID: -6964931944195941098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2247
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f13bc6811c92a140800000000000000
+      internalID: 4729514157782282745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_13
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2247
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0bd57867e04c9e0800000000000000
+      internalID: -1602139665197059847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2162
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe83e89c287efb20800000000000000
+      internalID: 3170103320654352116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b238c184009cbb10800000000000000
+      internalID: 1998630683677307570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_16
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 2162
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a27ffc0af81859c0800000000000000
+      internalID: -3938370411896540508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_17
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f91cdc30ada7870800000000000000
+      internalID: 8681490941581827969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2086
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480bd5d87da972f90800000000000000
+      internalID: -6978438847006920572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2110
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059ebc39352fb1090800000000000000
+      internalID: -8062584267100919472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_20
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2086
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25547ea4dcfe28270800000000000000
+      internalID: 8251421132300174674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_21
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 2110
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f289948a91e12d60800000000000000
+      internalID: 7863814478131462899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2028
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d182e4144c9ec840800000000000000
+      internalID: 5246302432155304406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2066
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31260311274206f50800000000000000
+      internalID: 6872533103700632083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_24
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 2028
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e03ba7659ba80310800000000000000
+      internalID: 1371534744712065256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_25
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 2066
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30d036af05929930800000000000000
+      internalID: 4148542101206913084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_26
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671be87aebcb084a0800000000000000
+      internalID: -6593062327429451402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1999
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e9a0859593cb610800000000000000
+      internalID: 1638247420347981469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_28
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b0ed0e808affaa0800000000000000
+      internalID: -6124992212114732210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_29
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1999
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b2717ffbd6d8600800000000000000
+      internalID: 472154207195442013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_30
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1969
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3dd2c06495952b0800000000000000
+      internalID: -5595342904644217915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1645
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74268156f48749c30800000000000000
+      internalID: 4365246221222699591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_32
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1764
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd4451d4b71c5730800000000000000
+      internalID: 3989089435316932062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_33
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1789
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3993332b5de8470800000000000000
+      internalID: 8398885316432860070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_34
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1645
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd242f0b16829730800000000000000
+      internalID: 4004410469462060543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_35
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1764
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8285323d00e0d40800000000000000
+      internalID: 5552376297425479933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_36
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 1789
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91489c7fb3a1b2510800000000000000
+      internalID: 1525341743657616409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_37
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1796
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4bc5c254e286830800000000000000
+      internalID: 4064549538333766860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_38
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1707
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e613c102697b420800000000000000
+      internalID: 2645748370759577130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_39
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1745
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9939be3fecf1ab0800000000000000
+      internalID: -5035078311352231441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_40
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1707
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bcf32ec2ba2b620800000000000000
+      internalID: 2788479328558500614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_41
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1745
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3a1025077148780800000000000000
+      internalID: -8681788410483858489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_42
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1646
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690b4585a6940ac60800000000000000
+      internalID: 7827336873467228310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1677
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb192eae322d7000800000000000000
+      internalID: 35222024694078402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_44
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1646
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5ea149dde7b65f0800000000000000
+      internalID: -762376221771504223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_45
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1677
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9605a0b53f560ab90800000000000000
+      internalID: -7232668905678155671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_46
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1561
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc299a4d500eb8350800000000000000
+      internalID: 6020151642558141131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_47
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1313
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0f22d44f16ebed0800000000000000
+      internalID: -2396370249820475215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_48
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 1561
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad7ccaa1b5b0fa90800000000000000
+      internalID: -7282120822778724950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_49
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1313
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e1e8b084f692d90800000000000000
+      internalID: -7122038980487537115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_50
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1485
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db001b3d82fa1270800000000000000
+      internalID: 8222150758113479632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1510
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d52dfcb9c2232e0800000000000000
+      internalID: -2147605024584082142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_52
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1485
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb738f1416447e10800000000000000
+      internalID: 2194455970678275040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_53
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1510
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7142a402a4cc19b10800000000000000
+      internalID: 1986593529388475415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_54
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1427
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf8894a0af86d8f0800000000000000
+      internalID: -516067187168342098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_55
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1465
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa19c2ccdbd64db0800000000000000
+      internalID: -4807913810964178261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_56
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1427
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547ebf38513a2d170800000000000000
+      internalID: 8201797184199059269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_57
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1465
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3692f7035833430800000000000000
+      internalID: 3761496557122839539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_58
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1367
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3e691ed30d438f0800000000000000
+      internalID: -561595089318124626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_59
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1398
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e6030166de67bc0800000000000000
+      internalID: -3785577414144266597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_60
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1367
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6887c8694f83aff80800000000000000
+      internalID: -8072076758959228794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_61
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1398
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286ebbaba4a4e8730800000000000000
+      internalID: 4003218803599861378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_62
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1368
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360ebd3e5b6c120c0800000000000000
+      internalID: -4602178859681718173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_63
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1044
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052ca248d2dd0e030800000000000000
+      internalID: 3522058096164389456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_64
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1163
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b68a7d451130df0800000000000000
+      internalID: -215309301090587778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_65
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1188
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db211d473b46d3c10800000000000000
+      internalID: 2034893328563114685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_66
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1044
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0e439257e1956c0800000000000000
+      internalID: -4154255692721233688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_67
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1163
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5ca67d5540a8870800000000000000
+      internalID: 8685759598070253040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_68
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1188
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d730654e0c08e99f0800000000000000
+      internalID: -459788545992293507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_69
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1195
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a769cbd68ba87c220800000000000000
+      internalID: 2506124242374661754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_70
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1106
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff67cc0edb288eb0800000000000000
+      internalID: -4717472376973463557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_71
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1144
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586237897998b4dd0800000000000000
+      internalID: -2500753883883428219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_72
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1106
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c800d9d45cefee4a0800000000000000
+      internalID: -6562027483668086644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_73
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1144
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19d141432e495420800000000000000
+      internalID: 2619210571618310431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_74
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1045
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9341620dab6d550800000000000000
+      internalID: 6185336541394778529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_75
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1045
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27160a634e174ee40800000000000000
+      internalID: 5684793854631371122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_76
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 960
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9dbf9629881d680800000000000000
+      internalID: -8732048040069965389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_77
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 712
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866ba07a6a1595c60800000000000000
+      internalID: 7807361205232383592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_78
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 960
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5051e11084c01e180800000000000000
+      internalID: -9087969069661022971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_79
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 712
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfaa2816eef8eb00800000000000000
+      internalID: 858215993215463359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_80
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 884
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6fcfe38064a50d0800000000000000
+      internalID: -3433354764686133599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_81
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 908
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe6c5f452d1c9210800000000000000
+      internalID: 1340978835132018427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_82
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 884
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbbfa7d894292470800000000000000
+      internalID: 8370261621317024735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_83
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 908
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db502e8ed32bbea0800000000000000
+      internalID: -5856047451691000876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_84
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 826
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1749dda7673aed580800000000000000
+      internalID: -8800416892572560271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_85
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 864
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22692ac4114231ec0800000000000000
+      internalID: -3597492020620126686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_86
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 826
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fced20d11b96ca00800000000000000
+      internalID: 776478486577409268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_87
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 864
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe39eb45781f2b60800000000000000
+      internalID: 7723418778027507445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_88
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 766
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8ecbb463503a6e0800000000000000
+      internalID: -1827611293025244969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_89
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 797
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8871ace35dd3e250800000000000000
+      internalID: 5972860883345438859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_90
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 766
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ab06c62acf0ec60800000000000000
+      internalID: 7845548325412583988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_91
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 797
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953fe6a59716c9dd0800000000000000
+      internalID: -2477998521124457639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_92
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 767
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc36bceb08eb6fa0800000000000000
+      internalID: -5806292156650472251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_93
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 443
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29511c29ce68ee7e0800000000000000
+      internalID: -1734300455858530926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_94
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 562
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65d97a165d1beae0800000000000000
+      internalID: -1519088193658825363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_95
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 587
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e4440e2450ccaf0800000000000000
+      internalID: -374918884190040551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_96
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 443
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8cd7732077d9910800000000000000
+      internalID: 1845762273696401627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_97
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 562
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41394463eb9825d0800000000000000
+      internalID: -3087046143620075190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_98
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 587
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c1cbe1a8f743f10800000000000000
+      internalID: 2248562345162579038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_99
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 594
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a1d7d72bcf37a70800000000000000
+      internalID: 8823673938488662644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_100
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 505
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e4214c355fbf530800000000000000
+      internalID: 3889972443285179975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_101
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 543
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3f0354f3d2cf2a0800000000000000
+      internalID: -6702432395667115038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_102
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 505
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4243fc46022db4230800000000000000
+      internalID: 3624221361721783332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_103
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 543
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7c23741605615e0800000000000000
+      internalID: -1939274210799859724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_104
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 444
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44fdc1afb19564f0800000000000000
+      internalID: -836101903567948724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_105
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 475
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf840753fd1e4d1a0800000000000000
+      internalID: -6785550389749987076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_106
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 444
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991b0fd1d69e83710800000000000000
+      internalID: 1673343916431159705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_107
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 475
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da2013f513b63310800000000000000
+      internalID: 1384490842316614358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_108
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 359
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfef9f0c348f0a180800000000000000
+      internalID: -9106005476659036420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_109
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d7985ec247d1900800000000000000
+      internalID: 656808856844336454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_110
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 359
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9cbc132951be430800000000000000
+      internalID: 3813165227144104406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_111
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a94061d1edf7800800000000000000
+      internalID: 612452290850494981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_112
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 283
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2f9ac98a04d8c30800000000000000
+      internalID: 4363214706918945503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_113
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 308
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3352f9198a50146a0800000000000000
+      internalID: -6466881368371550925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_114
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 283
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec8383c3804afc10800000000000000
+      internalID: 2088052311904718051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_115
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 308
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867855edea95d9370800000000000000
+      internalID: 8330913493294614376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_116
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 225
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f623a6efb765120800000000000000
+      internalID: 2402243783882338207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_117
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 263
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977bb0820dc9625c0800000000000000
+      internalID: -4240529581283756167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_118
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 225
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b89cbf4cdabebd10800000000000000
+      internalID: 2143355928068266167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_119
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 263
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6bc5b03c6867cb0800000000000000
+      internalID: -4866554175059872093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_120
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971efdab25ae52fa0800000000000000
+      internalID: -5825992901890416263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_121
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 196
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74162fb41a4c5be30800000000000000
+      internalID: 4518733998179115335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_122
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e591249adb4716d30800000000000000
+      internalID: 4422944666991860062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_123
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 196
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f513c80ee22657470800000000000000
+      internalID: 8391721434150089055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_124
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 166
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5885bf9bb005660800000000000000
+      internalID: 7372405483419239913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_125
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947f5b209a81efe50800000000000000
+      internalID: 6844935597823752009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_126
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597c3cfe1522da320800000000000000
+      internalID: 2570748697608701845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_127
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b35d20018b67e90800000000000000
+      internalID: -7028227789558563948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_128
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee6638cc3bbc3f60800000000000000
+      internalID: 8015487306544082669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_129
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6510e85ced954c5d0800000000000000
+      internalID: -3043208634863582890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_130
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d29d2c4c89c92e0800000000000000
+      internalID: -2117649753920950882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_131
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5861c4d93878f00800000000000000
+      internalID: 1119007744034506238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_132
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b95fd2095b2cd7c0800000000000000
+      internalID: -4045310703985272400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-coffee-grinder-png-image_20749963_133
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 0
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909ae697e37a15bf0800000000000000
+      internalID: -337304610308970231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-coffee-grinder-png-image_20749963_0: 4495913852633655890
+      pngtree-coffee-grinder-png-image_20749963_1: 3998196121768839084
+      pngtree-coffee-grinder-png-image_20749963_10: 8489282168003143855
+      pngtree-coffee-grinder-png-image_20749963_100: 3889972443285179975
+      pngtree-coffee-grinder-png-image_20749963_101: -6702432395667115038
+      pngtree-coffee-grinder-png-image_20749963_102: 3624221361721783332
+      pngtree-coffee-grinder-png-image_20749963_103: -1939274210799859724
+      pngtree-coffee-grinder-png-image_20749963_104: -836101903567948724
+      pngtree-coffee-grinder-png-image_20749963_105: -6785550389749987076
+      pngtree-coffee-grinder-png-image_20749963_106: 1673343916431159705
+      pngtree-coffee-grinder-png-image_20749963_107: 1384490842316614358
+      pngtree-coffee-grinder-png-image_20749963_108: -9106005476659036420
+      pngtree-coffee-grinder-png-image_20749963_109: 656808856844336454
+      pngtree-coffee-grinder-png-image_20749963_11: -6964931944195941098
+      pngtree-coffee-grinder-png-image_20749963_110: 3813165227144104406
+      pngtree-coffee-grinder-png-image_20749963_111: 612452290850494981
+      pngtree-coffee-grinder-png-image_20749963_112: 4363214706918945503
+      pngtree-coffee-grinder-png-image_20749963_113: -6466881368371550925
+      pngtree-coffee-grinder-png-image_20749963_114: 2088052311904718051
+      pngtree-coffee-grinder-png-image_20749963_115: 8330913493294614376
+      pngtree-coffee-grinder-png-image_20749963_116: 2402243783882338207
+      pngtree-coffee-grinder-png-image_20749963_117: -4240529581283756167
+      pngtree-coffee-grinder-png-image_20749963_118: 2143355928068266167
+      pngtree-coffee-grinder-png-image_20749963_119: -4866554175059872093
+      pngtree-coffee-grinder-png-image_20749963_12: 4729514157782282745
+      pngtree-coffee-grinder-png-image_20749963_120: -5825992901890416263
+      pngtree-coffee-grinder-png-image_20749963_121: 4518733998179115335
+      pngtree-coffee-grinder-png-image_20749963_122: 4422944666991860062
+      pngtree-coffee-grinder-png-image_20749963_123: 8391721434150089055
+      pngtree-coffee-grinder-png-image_20749963_124: 7372405483419239913
+      pngtree-coffee-grinder-png-image_20749963_125: 6844935597823752009
+      pngtree-coffee-grinder-png-image_20749963_126: 2570748697608701845
+      pngtree-coffee-grinder-png-image_20749963_127: -7028227789558563948
+      pngtree-coffee-grinder-png-image_20749963_128: 8015487306544082669
+      pngtree-coffee-grinder-png-image_20749963_129: -3043208634863582890
+      pngtree-coffee-grinder-png-image_20749963_13: -1602139665197059847
+      pngtree-coffee-grinder-png-image_20749963_130: -2117649753920950882
+      pngtree-coffee-grinder-png-image_20749963_131: 1119007744034506238
+      pngtree-coffee-grinder-png-image_20749963_132: -4045310703985272400
+      pngtree-coffee-grinder-png-image_20749963_133: -337304610308970231
+      pngtree-coffee-grinder-png-image_20749963_14: 3170103320654352116
+      pngtree-coffee-grinder-png-image_20749963_15: 1998630683677307570
+      pngtree-coffee-grinder-png-image_20749963_16: -3938370411896540508
+      pngtree-coffee-grinder-png-image_20749963_17: 8681490941581827969
+      pngtree-coffee-grinder-png-image_20749963_18: -6978438847006920572
+      pngtree-coffee-grinder-png-image_20749963_19: -8062584267100919472
+      pngtree-coffee-grinder-png-image_20749963_2: 5404473565677972415
+      pngtree-coffee-grinder-png-image_20749963_20: 8251421132300174674
+      pngtree-coffee-grinder-png-image_20749963_21: 7863814478131462899
+      pngtree-coffee-grinder-png-image_20749963_22: 5246302432155304406
+      pngtree-coffee-grinder-png-image_20749963_23: 6872533103700632083
+      pngtree-coffee-grinder-png-image_20749963_24: 1371534744712065256
+      pngtree-coffee-grinder-png-image_20749963_25: 4148542101206913084
+      pngtree-coffee-grinder-png-image_20749963_26: -6593062327429451402
+      pngtree-coffee-grinder-png-image_20749963_27: 1638247420347981469
+      pngtree-coffee-grinder-png-image_20749963_28: -6124992212114732210
+      pngtree-coffee-grinder-png-image_20749963_29: 472154207195442013
+      pngtree-coffee-grinder-png-image_20749963_3: -4618886279892384927
+      pngtree-coffee-grinder-png-image_20749963_30: -5595342904644217915
+      pngtree-coffee-grinder-png-image_20749963_31: 4365246221222699591
+      pngtree-coffee-grinder-png-image_20749963_32: 3989089435316932062
+      pngtree-coffee-grinder-png-image_20749963_33: 8398885316432860070
+      pngtree-coffee-grinder-png-image_20749963_34: 4004410469462060543
+      pngtree-coffee-grinder-png-image_20749963_35: 5552376297425479933
+      pngtree-coffee-grinder-png-image_20749963_36: 1525341743657616409
+      pngtree-coffee-grinder-png-image_20749963_37: 4064549538333766860
+      pngtree-coffee-grinder-png-image_20749963_38: 2645748370759577130
+      pngtree-coffee-grinder-png-image_20749963_39: -5035078311352231441
+      pngtree-coffee-grinder-png-image_20749963_4: -3816461534059232664
+      pngtree-coffee-grinder-png-image_20749963_40: 2788479328558500614
+      pngtree-coffee-grinder-png-image_20749963_41: -8681788410483858489
+      pngtree-coffee-grinder-png-image_20749963_42: 7827336873467228310
+      pngtree-coffee-grinder-png-image_20749963_43: 35222024694078402
+      pngtree-coffee-grinder-png-image_20749963_44: -762376221771504223
+      pngtree-coffee-grinder-png-image_20749963_45: -7232668905678155671
+      pngtree-coffee-grinder-png-image_20749963_46: 6020151642558141131
+      pngtree-coffee-grinder-png-image_20749963_47: -2396370249820475215
+      pngtree-coffee-grinder-png-image_20749963_48: -7282120822778724950
+      pngtree-coffee-grinder-png-image_20749963_49: -7122038980487537115
+      pngtree-coffee-grinder-png-image_20749963_5: 844967842790046098
+      pngtree-coffee-grinder-png-image_20749963_50: 8222150758113479632
+      pngtree-coffee-grinder-png-image_20749963_51: -2147605024584082142
+      pngtree-coffee-grinder-png-image_20749963_52: 2194455970678275040
+      pngtree-coffee-grinder-png-image_20749963_53: 1986593529388475415
+      pngtree-coffee-grinder-png-image_20749963_54: -516067187168342098
+      pngtree-coffee-grinder-png-image_20749963_55: -4807913810964178261
+      pngtree-coffee-grinder-png-image_20749963_56: 8201797184199059269
+      pngtree-coffee-grinder-png-image_20749963_57: 3761496557122839539
+      pngtree-coffee-grinder-png-image_20749963_58: -561595089318124626
+      pngtree-coffee-grinder-png-image_20749963_59: -3785577414144266597
+      pngtree-coffee-grinder-png-image_20749963_6: 4084298008734840428
+      pngtree-coffee-grinder-png-image_20749963_60: -8072076758959228794
+      pngtree-coffee-grinder-png-image_20749963_61: 4003218803599861378
+      pngtree-coffee-grinder-png-image_20749963_62: -4602178859681718173
+      pngtree-coffee-grinder-png-image_20749963_63: 3522058096164389456
+      pngtree-coffee-grinder-png-image_20749963_64: -215309301090587778
+      pngtree-coffee-grinder-png-image_20749963_65: 2034893328563114685
+      pngtree-coffee-grinder-png-image_20749963_66: -4154255692721233688
+      pngtree-coffee-grinder-png-image_20749963_67: 8685759598070253040
+      pngtree-coffee-grinder-png-image_20749963_68: -459788545992293507
+      pngtree-coffee-grinder-png-image_20749963_69: 2506124242374661754
+      pngtree-coffee-grinder-png-image_20749963_7: -5646858659005312453
+      pngtree-coffee-grinder-png-image_20749963_70: -4717472376973463557
+      pngtree-coffee-grinder-png-image_20749963_71: -2500753883883428219
+      pngtree-coffee-grinder-png-image_20749963_72: -6562027483668086644
+      pngtree-coffee-grinder-png-image_20749963_73: 2619210571618310431
+      pngtree-coffee-grinder-png-image_20749963_74: 6185336541394778529
+      pngtree-coffee-grinder-png-image_20749963_75: 5684793854631371122
+      pngtree-coffee-grinder-png-image_20749963_76: -8732048040069965389
+      pngtree-coffee-grinder-png-image_20749963_77: 7807361205232383592
+      pngtree-coffee-grinder-png-image_20749963_78: -9087969069661022971
+      pngtree-coffee-grinder-png-image_20749963_79: 858215993215463359
+      pngtree-coffee-grinder-png-image_20749963_8: -166788558018785412
+      pngtree-coffee-grinder-png-image_20749963_80: -3433354764686133599
+      pngtree-coffee-grinder-png-image_20749963_81: 1340978835132018427
+      pngtree-coffee-grinder-png-image_20749963_82: 8370261621317024735
+      pngtree-coffee-grinder-png-image_20749963_83: -5856047451691000876
+      pngtree-coffee-grinder-png-image_20749963_84: -8800416892572560271
+      pngtree-coffee-grinder-png-image_20749963_85: -3597492020620126686
+      pngtree-coffee-grinder-png-image_20749963_86: 776478486577409268
+      pngtree-coffee-grinder-png-image_20749963_87: 7723418778027507445
+      pngtree-coffee-grinder-png-image_20749963_88: -1827611293025244969
+      pngtree-coffee-grinder-png-image_20749963_89: 5972860883345438859
+      pngtree-coffee-grinder-png-image_20749963_9: 4518939642887424575
+      pngtree-coffee-grinder-png-image_20749963_90: 7845548325412583988
+      pngtree-coffee-grinder-png-image_20749963_91: -2477998521124457639
+      pngtree-coffee-grinder-png-image_20749963_92: -5806292156650472251
+      pngtree-coffee-grinder-png-image_20749963_93: -1734300455858530926
+      pngtree-coffee-grinder-png-image_20749963_94: -1519088193658825363
+      pngtree-coffee-grinder-png-image_20749963_95: -374918884190040551
+      pngtree-coffee-grinder-png-image_20749963_96: 1845762273696401627
+      pngtree-coffee-grinder-png-image_20749963_97: -3087046143620075190
+      pngtree-coffee-grinder-png-image_20749963_98: 2248562345162579038
+      pngtree-coffee-grinder-png-image_20749963_99: 8823673938488662644
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
-using System.Reflection;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using static Utilities;
 
-public class Draggable : MonoBehaviour
+public class Draggable : TouchManager
 {
     // How close must the player tap to interact
     public float buffer = 1.0f;
@@ -13,48 +10,119 @@ public class Draggable : MonoBehaviour
     public float zdepth = 1.0f;
     // Should this object return to its start point when you stop holding
     public bool anchored = false;
+    // Should this anchored object interpolate its movement
+    public bool interpolate = true;
+    public float interp_time = 1.0f;
+    // Should this object do something once it's dropped
+    public bool droppable = false;
+    protected AudioSource audio_source;
+    public AudioClip grab_sound;
+    public AudioClip drop_sound;
+
     UnityEngine.Vector3 init_pos;
-    bool grabbed = false;
+    UnityEngine.Vector3 init_local_pos;
+    protected bool grabbed = false;
+    int elapsed_time;
+    private UnityEngine.Vector3 lerp_pos;
+    private UnityEngine.Vector3 lerp_local_pos;
+    private int init_order;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         // Save object's initital position
         init_pos = this.transform.position;
+        init_local_pos = this.transform.localPosition;
+        lerp_pos = init_pos;
+        lerp_local_pos = init_local_pos;
+
+        init_order = this.GetComponent<SpriteRenderer>().sortingOrder;
+
+        audio_source = Object.FindAnyObjectByType<AudioSource>();
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-        // If the player is touching the screen
-        if (Input.touchCount > 0)
+        // If the player is grabbing the object
+        if (grabbed)
         {
-            Touch touch = Input.GetTouch(0);
-            // Convert the touch point to world coordinates
-            UnityEngine.Vector3 touch_point = Camera.main.ScreenToWorldPoint(new UnityEngine.Vector3(touch.position.x, touch.position.y, zdepth));
-
             // Start following when the player holds the object
-            if (touch.phase == TouchPhase.Began && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
+            this.transform.position = new UnityEngine.Vector3(touch_point.x, touch_point.y, init_pos.z);
+            this.GetComponent<SpriteRenderer>().sortingOrder = 999;
+        }
+        if (!grabbed)
+        {
+            if (this.transform.position != lerp_pos)
             {
-                this.transform.position = touch_point;
-                grabbed = true;
+                float interp_ratio = (float)elapsed_time / (interp_time * 60.0f);
+                // Interpolate position of the drawer, based on the ratio of elapsed time
+                this.transform.position = UnityEngine.Vector3.Lerp(this.transform.position, lerp_pos, interp_ratio);
+
+                elapsed_time += 1;
             }
-            // Continue following while the player is holding
-            if (touch.phase == TouchPhase.Moved && grabbed)
+            if (this.transform.localPosition != lerp_local_pos)
             {
-                this.transform.position = touch_point;
+                float interp_ratio = (float)elapsed_time / (interp_time * 0.2f * 60.0f);
+                // Interpolate position of the drawer, based on the ratio of elapsed time
+                this.transform.localPosition = UnityEngine.Vector3.Lerp(this.transform.localPosition, lerp_local_pos, interp_ratio);
+
+                elapsed_time += 1;
             }
-            // Stop following when the player stops holding
-            if (touch.phase == TouchPhase.Ended)
+            this.GetComponent<SpriteRenderer>().sortingOrder = init_order;
+        }
+    }
+
+    protected override void TouchPressed(InputAction.CallbackContext context)
+    {
+        base.TouchPressed(context);
+        if (context.canceled)
+        {
+            elapsed_time = 0;
+            if (grabbed)
             {
-                grabbed = false;
+                // If the object is droppable, run the dropped func
+                if (droppable)
+                {
+                    Dropped();
+                }
                 // If the object is anchored, return to the initial position
                 if (anchored)
                 {
-                    this.transform.position = init_pos;
+                    if (interpolate)
+                    {
+                        lerp_pos = init_pos;
+                        lerp_local_pos = init_local_pos;
+                    }
+                    else
+                    {
+                        this.transform.position = init_pos;
+                        this.transform.localPosition = init_local_pos;
+                    }
+                }
+                // Play drop sound
+                if (audio_source != null && drop_sound != null)
+                {
+                    PlayOneShotRandomPitch(audio_source, drop_sound);
                 }
             }
+            grabbed = false;
         }
-        // TODO: Put mouse controls here
+        // Start following when the player holds the object
+        if (context.performed && IsNear(touch_point.x, this.transform.position.x, buffer) && IsNear(touch_point.y, this.transform.position.y, buffer))
+        {
+            grabbed = true;
+            // Play grab sound
+            if (audio_source != null && grab_sound != null)
+            {
+                PlayOneShotRandomPitch(audio_source, grab_sound);
+            }
+        }
+    }
+
+    protected virtual void Dropped()
+    {
+        // NOTE: Overwrite this in extended scripts with drop logic
+        return;
     }
 }

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 91d488b0a8d732648a0240ce78063391
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7913196588091398646
+    second: chocolate-brown-syrup-squeeze-bottle-png_0
+  - first:
+      213: -2643702563159244948
+    second: chocolate-brown-syrup-squeeze-bottle-png_1
+  - first:
+      213: 2190333076998254093
+    second: chocolate-brown-syrup-squeeze-bottle-png_2
+  - first:
+      213: 1622907292105328978
+    second: chocolate-brown-syrup-squeeze-bottle-png_3
+  - first:
+      213: -333355780200853533
+    second: chocolate-brown-syrup-squeeze-bottle-png_4
+  - first:
+      213: 6828810607191338321
+    second: chocolate-brown-syrup-squeeze-bottle-png_5
+  - first:
+      213: -2534498532306192998
+    second: chocolate-brown-syrup-squeeze-bottle-png_6
+  - first:
+      213: 4132862972547888300
+    second: chocolate-brown-syrup-squeeze-bottle-png_7
+  - first:
+      213: 1759205351906660763
+    second: chocolate-brown-syrup-squeeze-bottle-png_8
+  - first:
+      213: -5816973724669756921
+    second: chocolate-brown-syrup-squeeze-bottle-png_9
+  - first:
+      213: -3249189977720086287
+    second: chocolate-brown-syrup-squeeze-bottle-png_10
+  - first:
+      213: 6543449672978533682
+    second: chocolate-brown-syrup-squeeze-bottle-png_11
+  - first:
+      213: 5164371236953560920
+    second: chocolate-brown-syrup-squeeze-bottle-png_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 939
+        width: 185
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f95507fe5251dd60800000000000000
+      internalID: 7913196588091398646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 555
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f7a17968eaf4bd0800000000000000
+      internalID: -2643702563159244948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_2
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 927
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ee4422450a56e10800000000000000
+      internalID: 2190333076998254093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 685
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25944596599b58610800000000000000
+      internalID: 1622907292105328978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 685
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef0e412faeaf5bf0800000000000000
+      internalID: -333355780200853533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_5
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 710
+        width: 220
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d2f00111fc4ce50800000000000000
+      internalID: 6828810607191338321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 190
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95f3226307a3dcd0800000000000000
+      internalID: -2534498532306192998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_7
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 443
+        width: 46
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4f4180af0ea5930800000000000000
+      internalID: 4132862972547888300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 200
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91dc5762f3f96810800000000000000
+      internalID: 1759205351906660763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 200
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a37419735f54fa0800000000000000
+      internalID: -5816973724669756921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_10
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 226
+        width: 220
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f02c322eee88e2d0800000000000000
+      internalID: -3249189977720086287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d08831fc00fca50800000000000000
+      internalID: 6543449672978533682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolate-brown-syrup-squeeze-bottle-png_12
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8579cda27488ba740800000000000000
+      internalID: 5164371236953560920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chocolate-brown-syrup-squeeze-bottle-png_0: 7913196588091398646
+      chocolate-brown-syrup-squeeze-bottle-png_1: -2643702563159244948
+      chocolate-brown-syrup-squeeze-bottle-png_10: -3249189977720086287
+      chocolate-brown-syrup-squeeze-bottle-png_11: 6543449672978533682
+      chocolate-brown-syrup-squeeze-bottle-png_12: 5164371236953560920
+      chocolate-brown-syrup-squeeze-bottle-png_2: 2190333076998254093
+      chocolate-brown-syrup-squeeze-bottle-png_3: 1622907292105328978
+      chocolate-brown-syrup-squeeze-bottle-png_4: -333355780200853533
+      chocolate-brown-syrup-squeeze-bottle-png_5: 6828810607191338321
+      chocolate-brown-syrup-squeeze-bottle-png_6: -2534498532306192998
+      chocolate-brown-syrup-squeeze-bottle-png_7: 4132862972547888300
+      chocolate-brown-syrup-squeeze-bottle-png_8: 1759205351906660763
+      chocolate-brown-syrup-squeeze-bottle-png_9: -5816973724669756921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

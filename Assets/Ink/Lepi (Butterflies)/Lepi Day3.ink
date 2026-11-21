@@ -1,0 +1,159 @@
+VAR player_score = 0
+
+(You) Hi Lepi, welcome back in.
+* What would you like today?
+-
+(Lepi) I shall have my usual.
+* One Americano? coming right up.
+-
+(Lepi) Thank you, what a nice day it is.
+* It is nice out.
+-
+* How was your performance?
+-
+(Lepi) Thank you for remembering.
+(Lepi) It went well. 
+* That's great congrats.
+-
+(Lepi) A critic watched it and loved it.
+* That is awesome.
+-
+* Hopefully that leads to more turnout next time.
+-
+(Lepi) Yeah hopefully.
+* What else have you been up to.
+-
+(Lepi) I have been preparing to teach dance.
+(Lepi) I was offered a job at a studio.
+
+
+*Congradulations Lepi
+~ player_score += 1
+-> Lepi3_1
+
+* Would that take away from your perfomances?
+-> Lepi3_2
+
+* Ew Teaching sucks.
+~ player_score -= 1
+-> Lepi3_3
+
+
+
+=== Lepi3_1 ===
+(Lepi) Thank you, it was an honor.
+* I bet, what exactly would you do?
+-
+(Lepi) I would teach an open class to whomever.
+* Cool, I bet they would learn a lot.
+-> Lepi4
+-> END
+
+=== Lepi3_2 ===
+(Lepi) I hope not.
+(Lepi) I still want to perform.
+* That's true, shouldn't take up too much time.
+-
+(Lepi) Yeah hopefully
+-> Lepi4
+-> END
+
+=== Lepi3_3 ===
+(Lepi) I guess it can but not always.
+* Sorry, I guess you are right.
+-
+(Lepi) That's alright.
+-> Lepi4
+-> END
+
+
+
+
+=== Lepi4 ===
+* Funny enough, I recommended someone to you yesterday.
+-
+(Lepi) Really, who?
+* A tall guy named Acro, he wants to learn.
+-
+(Lepi) Well that sounds splendid.
+(Lepi) I would be honored to have a new student.
+
+* That's great.
+-
+* Anything on your mind you wanna talk about.
+-
+(Lepi) I guess I'm just a little worried on how to teach.
+
+* You got this.
+~ player_score +=1
+-> Lepi4_3
+* You'll do fine
+-> Lepi4_2
+* Everyone hates teachers, so just don't be mean.
+~ player_score -=1
+-> Lepi4_1
+
+
+
+-> END
+=== Lepi4_3 ===
+(Lepi) Thanks.
+(Lepi) I hope my students approve.
+* I think they will.
+-
+-> Lepi5
+-> END
+
+
+=== Lepi4_2 ===
+(Lepi) Yes probably.
+(Lepi) It's mostly nerves.
+* I bet they are nervous too.
+-
+(Lepi) True haha.
+-> Lepi5
+-> END
+
+=== Lepi4_1 ===
+(Lepi) Everyone does?
+(Lepi) Oh my. I must go home and practice.
+* My bad, It was just a joke.
+-
+(Lepi) Now I must prepare.
+(Lepi) May I have my drink?
+* Yes you may, here you are.
+-> END
+
+
+=== Lepi5 ===
+(Lepi) I must go, but thank you.
+* You are most welcome.
+-
+* Have fun in class.
+-
+(Lepi) I will. Perhaps you can join it haha.
+* Maybe on my day off haha.
+-
+(Lepi) Haha. Is my drink done?
+* Yes, here you are miss.
+-> END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
