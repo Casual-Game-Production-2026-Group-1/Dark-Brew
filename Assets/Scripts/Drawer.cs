@@ -10,6 +10,8 @@ public class Drawer : MonoBehaviour
     private Vector3 init_pos;
     private Vector3 lerp_pos;
     private bool open = false;
+    // False = closed, true = open
+    private bool saved_state = false;
     protected AudioSource audio_source;
     public AudioClip open_sound;
     public AudioClip close_sound;
@@ -33,10 +35,22 @@ public class Drawer : MonoBehaviour
         }
     }
 
+    public void SaveState()
+    {
+        if (open)
+        {
+            saved_state = true;
+        }
+        else
+        {
+            saved_state = false;
+        }
+    }
+
     public void Toggle()
     {
         // If open, close the drawer
-        if (open)
+        if (saved_state)
         {
             Close();
         }
@@ -47,14 +61,14 @@ public class Drawer : MonoBehaviour
         }
     }
 
-    public void Open()
+    public void Open(bool quiet = false)
     {
         if (!open)
         {
             elapsed_time = 0;
             lerp_pos = target_pos;
 
-            if (audio_source != null && open_sound != null)
+            if (!quiet && audio_source != null && open_sound != null)
             {
                 PlayOneShotRandomPitch(audio_source, open_sound, 0.3f);
             }
@@ -63,16 +77,16 @@ public class Drawer : MonoBehaviour
         }
     }
 
-    public void Close()
+    public void Close(bool quiet = false)
     {
         if (open)
         {
             elapsed_time = 0;
             lerp_pos = init_pos;
 
-            if (audio_source != null && close_sound != null)
+            if (!quiet && audio_source != null && close_sound != null)
             {
-                PlayOneShotRandomPitch(audio_source, close_sound);
+                PlayOneShotRandomPitch(audio_source, close_sound, 0.3f);
             }
 
             open = false;

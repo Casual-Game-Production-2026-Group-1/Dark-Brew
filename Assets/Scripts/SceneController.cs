@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class SceneController : MonoBehaviour
 {
     public List<CharController> customers = new List<CharController>();
+    public List<Drawer> drawers = new List<Drawer>();
     public Image morning_bg;
     public Image afternoon_bg;
     public Image night_bg;
@@ -119,5 +120,23 @@ public class SceneController : MonoBehaviour
     public void FormatTicket()
     {
         order_ticket.text = string.Join(", \n", customers[0].order);
+    }
+
+    // Close all drawers
+    public void CloseAll()
+    {
+        foreach (var d in drawers)
+        {
+            d.Close();
+        }
+    }
+
+    // Open all drawers
+    public void OpenAll()
+    {
+        foreach (var d in drawers)
+        {
+            d.Open();
+        }
     }
 }
