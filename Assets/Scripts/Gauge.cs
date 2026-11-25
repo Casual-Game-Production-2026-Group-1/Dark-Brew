@@ -5,7 +5,7 @@ public class Gauge : MonoBehaviour
     [SerializeField]
     private GameObject needle;
 
-    public float needle_speed = 1.0f;
+    private float needle_speed = 1.0f;
     public float max_progress = 100.0f;
 
     public float current_progress = 0.0f;

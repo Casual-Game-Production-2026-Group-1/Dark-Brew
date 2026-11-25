@@ -40,7 +40,11 @@ public class Coffee : Draggable
     private void SubmitCoffee()
     {
         ingredients.Sort();
-        if (string.Join(", ", scene_controller.customers[0].order) == string.Join(", ", ingredients))
+        List<string> customer_order = scene_controller.customers[scene_controller.GetCurrentCustomer()].order;
+        customer_order.Sort();
+        print(string.Join(", ", customer_order));
+        print(string.Join(", ", ingredients));
+        if (string.Join(", ", customer_order) == string.Join(", ", ingredients))
         {
             print(" - Submitted coffee: Correct order!");
             if (audio_source != null && submit_correct_cound != null)
@@ -56,7 +60,7 @@ public class Coffee : Draggable
             {
                 PlayOneShotRandomPitch(audio_source, submit_incorrect_cound);
             }
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         ingredients.Clear();
     }

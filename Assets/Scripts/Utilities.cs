@@ -1,4 +1,6 @@
+using System;
 using TMPro;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 public static class Utilities
@@ -51,10 +53,23 @@ public static class Utilities
         {
             pitch = audioSource.pitch;
         }
-        
-        float randomPitch = Random.Range(pitch - pitchVariance, pitch + pitchVariance);
+
+        float randomPitch = UnityEngine.Random.Range(pitch - pitchVariance, pitch + pitchVariance);
 
         audioSource.pitch = randomPitch;
         audioSource.PlayOneShot(audioClip);
+    }
+
+    // Shuffles an array using the Fisher-Yates algorithm
+    public static void Shuffle<T>(this System.Random rng, T[] array)
+    {
+        int n = array.Length;
+        while (n > 1)
+        {
+            int k = rng.Next(n--);
+            T temp = array[n];
+            array[n] = array[k];
+            array[k] = temp;
+        }
     }
 }

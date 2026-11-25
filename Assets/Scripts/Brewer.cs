@@ -9,6 +9,7 @@ using static Utilities;
 public class Brewer : Appliance
 {
     public Gauge brewer_gauge;
+    public float speed = 1.5f;
     bool brewing = false;
 
     // 0: unbrewed, 1: light_brew, 2: medium_brew, 3: dark_brew, 4: overbrewed
@@ -22,7 +23,7 @@ public class Brewer : Appliance
         // Start brewing if ingredient is valid
         if (!brewing && activating_ingredient != null)
         {
-            brewer_gauge.SetProgress(100.0f, 1.5f);
+            brewer_gauge.SetProgress(100.0f, speed);
             // Set roast type
             if (input_name == "light_grounds")
             {
