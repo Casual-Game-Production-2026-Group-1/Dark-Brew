@@ -28,7 +28,7 @@ public class Draggable : TouchManager
     private int init_order;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected virtual void Start()
     {
         // Save object's initital position
         init_pos = this.transform.position;

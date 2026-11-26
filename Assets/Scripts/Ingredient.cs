@@ -33,7 +33,7 @@ public class Ingredient : Draggable
             Coffee overlapping_coffee = overlapping_object.GetComponent<Coffee>();
             if (addable_to_coffee && overlapping_coffee != null && !overlapping_coffee.ingredients.Contains(ingredient_name))
             {
-                overlapping_coffee.ingredients.Add(ingredient_name);
+                overlapping_coffee.AddToCoffee(ingredient_name);
                 if (audio_source != null && add_to_coffee_sound != null)
                 {
                     PlayOneShotRandomPitch(audio_source, add_to_coffee_sound);

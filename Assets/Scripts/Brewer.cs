@@ -71,8 +71,8 @@ public class Brewer : Appliance
                 brew_state = "overbrewed";
             }
 
-            activating_coffee.ingredients.Add(brew_state);
-            activating_coffee.ingredients.Add(roast_type);
+            activating_coffee.AddToCoffee(roast_type);
+            activating_coffee.AddToCoffee(brew_state);
 
             brewer_gauge.SetProgress(0.0f, 9999.0f);
 

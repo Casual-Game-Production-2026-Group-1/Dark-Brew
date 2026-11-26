@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Drawer
   interp_time: 1
-  target_pos: {x: -90, y: 5, z: 0}
+  target_pos: {x: -218, y: -90.3, z: 0}
   open_sound: {fileID: 8300000, guid: 6682b0eefdca14c4e972224e2dc95db7, type: 3}
   close_sound: {fileID: 8300000, guid: b0321eae8627a9a4d9a1cfdd87b8acc9, type: 3}
 --- !u!1 &691633288
@@ -3753,11 +3753,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4139355602083656920, guid: c080ba638d5851a469bef3a3440d7ba5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 59.343998
+      value: 82.090546
       objectReference: {fileID: 0}
     - target: {fileID: 4139355602083656920, guid: c080ba638d5851a469bef3a3440d7ba5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 59.343998
+      value: 87.99528
       objectReference: {fileID: 0}
     - target: {fileID: 4139355602083656920, guid: c080ba638d5851a469bef3a3440d7ba5, type: 3}
       propertyPath: m_LocalScale.z
@@ -3765,11 +3765,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4139355602083656920, guid: c080ba638d5851a469bef3a3440d7ba5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1390.0001
+      value: 1410
       objectReference: {fileID: 0}
     - target: {fileID: 4139355602083656920, guid: c080ba638d5851a469bef3a3440d7ba5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -34
+      value: 169
       objectReference: {fileID: 0}
     - target: {fileID: 4139355602083656920, guid: c080ba638d5851a469bef3a3440d7ba5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4283,19 +4283,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 221.68568
+      value: 218.96669
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 44.12701
+      value: 43.52133
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 115.84284
+      value: 114.483345
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -27.063505
+      value: -26.760666
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_Pivot.x
@@ -4323,11 +4323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 231.68568
+      value: 228.96669
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 54.12701
+      value: 53.52133
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_LocalScale.x

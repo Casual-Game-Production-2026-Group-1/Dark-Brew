@@ -15,7 +15,7 @@ public class Garbage : Appliance
         Coffee activating_coffee = activator.GetComponent<Coffee>();
         if (activating_coffee != null)
         {
-            activating_coffee.ingredients.Clear();
+            activating_coffee.Reset();
             print("Trashed coffee");
         }
         base.DropActivate(input_name, activator);

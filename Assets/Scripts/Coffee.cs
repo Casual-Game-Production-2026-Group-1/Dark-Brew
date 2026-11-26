@@ -1,11 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
-using System.Reflection;
 using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using static Utilities;
 
 public class Coffee : Draggable
@@ -15,8 +12,49 @@ public class Coffee : Draggable
     public SceneController scene_controller;
     public AudioClip submit_correct_cound;
     public AudioClip submit_incorrect_cound;
+    public SpriteRenderer coffee_liquid;
     bool overlapping = false;
     GameObject overlapping_object;
+
+    protected override void Start()
+    {
+        base.Start();
+        Reset();
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+        coffee_liquid.sortingOrder = this.GetComponent<SpriteRenderer>().sortingOrder - 1;
+    }
+
+    public void AddToCoffee(string ingredient_name)
+    {
+        ingredients.Add(ingredient_name);
+        if (ingredient_name == "light_roast")
+        {
+            coffee_liquid.color = new Color(0.604f, 0.443f, 0.275f);
+        }
+        else if (ingredient_name == "medium_roast")
+        {
+            coffee_liquid.color = new Color(0.653f, 0.243f, 0.216f);
+        }
+        else if (ingredient_name == "dark_roast")
+        {
+            coffee_liquid.color = new Color(0.455f, 0.243f, 0.129f);
+        }
+        else if (ingredient_name == "light_brew")
+        {
+            coffee_liquid.color = new Color(coffee_liquid.color.r + 0.6f, coffee_liquid.color.g + 0.06f, coffee_liquid.color.b + 0.06f);
+        }
+        else if (ingredient_name == "medium_brew")
+        { }
+        else if (ingredient_name == "dark_brew")
+        {
+            coffee_liquid.color = new Color(coffee_liquid.color.r - 0.06f, coffee_liquid.color.g - 0.06f, coffee_liquid.color.b - 0.06f);
+        }
+        coffee_liquid.color = new Color(coffee_liquid.color.r, coffee_liquid.color.g, coffee_liquid.color.b, 1.0f);
+    }
     protected override void Dropped()
     {
         if (overlapping)
@@ -62,7 +100,7 @@ public class Coffee : Draggable
             }
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        ingredients.Clear();
+        Reset();
     }
 
     // Set if coffee is overlapping submit tray
@@ -85,5 +123,11 @@ public class Coffee : Draggable
             overlapping_object = null;
             print(name + " stopped overlapping " + other.gameObject.name);
         }
+    }
+
+    public void Reset()
+    {
+        ingredients.Clear();
+        coffee_liquid.color = new Color(coffee_liquid.color.r, coffee_liquid.color.g, coffee_liquid.color.b, 0.0f);
     }
 }

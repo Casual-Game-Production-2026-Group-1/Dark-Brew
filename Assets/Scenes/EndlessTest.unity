@@ -4287,19 +4287,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 221.68568
+      value: 218.96669
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 44.12701
+      value: 43.52133
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 115.84284
+      value: 114.483345
       objectReference: {fileID: 0}
     - target: {fileID: 22447082, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -27.063505
+      value: -26.760666
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_Pivot.x
@@ -4327,11 +4327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 231.68568
+      value: 228.96669
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 54.12701
+      value: 53.52133
       objectReference: {fileID: 0}
     - target: {fileID: 22491254, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
       propertyPath: m_LocalScale.x
@@ -7409,6 +7409,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5659835256783303709, guid: c767e2036102f0c4ca34f82bcf05274e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7758767622628145489, guid: 8e5d2f5acd8568b4181c3ce8c791190a, type: 3}
     - target: {fileID: 5752232222962032178, guid: c767e2036102f0c4ca34f82bcf05274e, type: 3}
       propertyPath: m_AspectRatio
       value: 1000
