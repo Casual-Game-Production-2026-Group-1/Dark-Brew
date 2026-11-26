@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2}
-  m_LocalScale: {x: 176.3, y: 176.3, z: 176.3}
+  m_LocalScale: {x: 88.2, y: 88.2, z: 88.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -54,8 +54,8 @@ MonoBehaviour:
   interpolate: 1
   interp_time: 1
   droppable: 1
-  grab_sound: {fileID: 8300000, guid: adb0ca8baaf9d2d41b012757329526ab, type: 3}
-  drop_sound: {fileID: 8300000, guid: e406fc29706a2e44281c56dace20d6e1, type: 3}
+  grab_sound: {fileID: 8300000, guid: a8d8f1d2005305247a1f7e730e028337, type: 3}
+  drop_sound: {fileID: 8300000, guid: 5080969212697bd4f88ed543ffd5041c, type: 3}
   ingredient_name: caramel
   addable_to_coffee: 1
   kill_on_add: 0
@@ -110,8 +110,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 73016a7a830127948b5603d431044274, type: 3}
-  m_Color: {r: 1, g: 0.6168162, b: 0.19339621, a: 1}
+  m_Sprite: {fileID: -451294937701783134, guid: 402d6802bf4e85e4c96dc863953ec501, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -155,17 +155,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.18, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 4.49}
+    oldSize: {x: 2.85, y: 9.1}
     newSize: {x: 5, y: 4.49}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.87, y: 4.48}
+  m_Size: {x: 2.71, y: 9.27}
   m_EdgeRadius: 0
 --- !u!50 &1849383587424482767
 Rigidbody2D:
